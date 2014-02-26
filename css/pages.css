@@ -1,0 +1,207 @@
+/*------------------------------*\
+
+	TABLE OF CONTENTS
+
+	x. SASS ELEMENTS (not shown in CSS)
+
+	0. HACKS AND OVERRIDES
+
+	1. CONTENT
+
+\*------------------------------*/
+/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*\
+
+    NOTE: ALL MEDIA QUERIES CAN BE FOUND WITH THEIR ASSOCIATED STLYING BLOCK
+
+\*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
+/*------------------------------------*\
+
+    x. SASS ELEMENTS
+
+\*------------------------------------*/
+/* Dark: 0A3A4A
+Dark Accent: 196674
+Midtone: 33A6B2
+Accent: 9AC836
+Highlight: D0E64B */
+/*----------------------------------------------------------*\
+
+    0. HACKS, DEFAULTS & OVERRIDES 
+
+\*----------------------------------------------------------*/
+/*------------------- Default All Elements ---------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+#content #welcome li {
+  display: inline; }
+
+#content #welcome img {
+  display: inline; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*------------------- Extended base styles  ---------------------*/
+html {
+  overflow-y: scroll;
+  /* force scrollbar in non-IE */ }
+
+body {
+  line-height: 1;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  line-height: 1.5;
+  background-color: #008cd7;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif; }
+
+img {
+  display: block; }
+
+p {
+  margin: 1em 0;
+  color: #FFF;
+  width: 75%; }
+
+p1 {
+  margin: 1em 0;
+  color: #FFF; }
+
+li {
+  color: #FFF; }
+
+/*----------------------------------------------------------*\
+
+    1. CONTENT STYLING
+
+\*----------------------------------------------------------*/
+/* content */
+#content {
+  position: relative;
+  min-width: 640px;
+  padding: 20px 0px 10px 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+  line-height: 1.7; }
+
+h1 {
+  margin: 0 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 50px;
+  font-stretch: condensed;
+  color: #0a3a4a; }
+
+h2 {
+  margin: 0 0 25px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 65px;
+  color: white; }
+
+h3 {
+  margin: 0 0 0 0;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #333; }
+
+.footer {
+  clear: both;
+  background: #505050;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  margin: 0;
+  position: relative;
+  bottom: 0px;
+  width: 100%; }
+
+.icoList .target {
+  float: left; }
+
+ul.icoList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle; }
+  ul.icoList li.email {
+    background: url(../img/icons/email.png) no-repeat left top; }
+  ul.icoList li.email:hover {
+    background: url(../img/icons/behance.png) no-repeat left top; }
+  ul.icoList li.linkedin {
+    background: url(../img/icons/email.png) no-repeat left top; }
+  ul.icoList li.twitter {
+    background: url(../img/icons/email.png) no-repeat left top; }
+  ul.icoList li.github {
+    background: url(../img/icons/email.png) no-repeat left top; }
+  ul.icoList li.stack {
+    background: url(../img/icons/email.png) no-repeat left top; }
+  ul.icoList li.linkedin {
+    background: url(../img/icons/email.png) no-repeat left top; }
+  ul.icoList li:hover {
+    color: #D0E64B; }
+  ul.icoList li {
+    padding: 2px 0px 0px 30px; }
+
+/*--------------- Section colours-----------------*/
+.section1 {
+  padding-left: 70px;
+  width: 100%;
+  background-color: #47aadd; }
+
+.section2 {
+  padding-left: 70px;
+  width: 100%;
+  background-color: #006ba4; }
+
+.section3 {
+  padding-left: 70px;
+  width: 100%;
+  background-color: #006ba4; }
+
+.section4 {
+  padding-left: 70px;
+  width: 100%;
+  background-color: #006ba4; }
+
+.section5 {
+  padding-left: 70px;
+  width: 100%;
+  background-color: #006ba4; }

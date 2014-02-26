@@ -1,0 +1,56 @@
+/*
+Alternative style:
+Dark Grey: #262626;
+Light Grey: #505050;
+
+Pastel Blue: #47aadd;
+Light Blue: #008cd7;
+Dark Blue: #006ba4;
+Turquoise: #02425b;
+
+Light Green: #2cb55d;
+Dark Green: #228c48;
+Red Highlight: #f36b6b;
+*/
+/*------------------- Banner CSS ---------------------*/
+a, a:link,
+a:active,
+a:visited {
+  -webkit-transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+  color: #2cb55d;
+  outline: none;
+  text-decoration: none; }
+
+a:hover {
+  color: #FFF; }
+
+#wrapper {
+  position: relative; }
+
+#branding {
+  width: 100%;
+  background: #262626;
+  z-index: 8;
+  position: fixed; }
+
+#branding h1 {
+  padding: 0px 45px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; }
+
+.links {
+  float: right;
+  vertical-align: middle;
+  padding-top: 12.5px;
+  padding-right: 20px; }
+
+.highlighted {
+  color: #f36b6b;
+  padding-left: 15px;
+  padding-right: 15px; }
