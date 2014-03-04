@@ -180,6 +180,126 @@ ul.icoList {
   ul.icoList li {
     padding: 2px 0px 0px 30px; }
 
+/*--------------- iGrid CSS -----------------*/
+main {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  width: 60%; }
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center; }
+
+p {
+  margin-bottom: 1.5rem; }
+
+hr {
+  border: none;
+  border-top: .125rem solid #ddd;
+  margin-bottom: 1.375rem; }
+
+a {
+  border-bottom: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  transition: all .125s ease-in-out; }
+
+a:hover {
+  border-bottom-color: #4a7298;
+  color: #4a7298; }
+  a:hover img {
+    -webkit-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg); }
+
+/* General photoset style */
+.photoset {
+  overflow: hidden;
+  width: 100%; }
+  .photoset .photoset-row {
+    margin-bottom: .3rem;
+    overflow: hidden;
+    width: 150%; }
+  .photoset .photoset-row:last-child {
+    margin: 0; }
+  .photoset .photoset-item {
+    display: block;
+    float: left;
+    margin: 0 .2rem; }
+  .photoset .photoset-item:first-child {
+    margin-left: 0; }
+  .photoset .photoset-item:last-child {
+    margin-right: 0; }
+  .photoset figure {
+    margin: 0;
+    overflow: hidden;
+    position: relative; }
+  .photoset figcaption {
+    background: #FFF;
+    box-sizing: border-box;
+    font-size: .75rem;
+    padding: .5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all .5s ease-in-out; }
+  .photoset .photoset-item:hover a + figcaption {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  .photoset img {
+    display: block;
+    max-width: 100%;
+    transition: all .25s ease-in-out; }
+  .photoset a {
+    -webkit-transition: all 600ms;
+    -moz-transition: all 600ms;
+    -o-transition: all 600ms;
+    transition: all 600ms;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0); }
+  .photoset a:hover {
+    -webkit-transition: all 1200ms;
+    -moz-transition: all 1200ms;
+    -o-transition: all 1200ms;
+    transition: all 1200ms;
+    -webkit-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
+    -moz-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
+    -ms-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
+    -o-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg); }
+
+.photoset-item a {
+  background-position: center center;
+  background-size: cover;
+  border: 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .photoset figcaption {
+    display: none; } }
+@media screen and (max-width: 480px) {
+  .photoset .photoset-row {
+    width: 100%; }
+
+  .photoset .photoset-item {
+    float: none;
+    margin: 0 0 .75em 0; }
+
+  .photoset figcaption {
+    display: block;
+    -webkit-transform: none;
+    transform: none;
+    position: relative; }
+
+  .photoset img {
+    max-width: 100%; } }
 /*--------------- Section colours-----------------*/
 .section1 {
   padding-left: 70px;
