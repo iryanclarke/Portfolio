@@ -307,10 +307,10 @@ main {
 		-o-transform: translate3d(0, 0, 0);
 	}
 	a:hover  {
-		-webkit-transition: all 1200ms;
-		-moz-transition: all 1200ms;
-		-o-transition: all 1200ms;
-		transition: all 1200ms;
+		-webkit-transition: all 1200ms ease-out;
+		-moz-transition: all 1200ms ease-out;
+		-o-transition: all 1200ms ease-out;
+		transition: all 1200ms ease-out;
 		-webkit-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
 		-moz-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
 		-ms-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
