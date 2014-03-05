@@ -13,7 +13,7 @@
 	<script src="js/modernizr.custom.37797.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.queryloader2.js"></script>
-
+    <script src="js/include.js"></script>
 </head>
 
 <body>

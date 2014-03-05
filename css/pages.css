@@ -185,32 +185,27 @@ main {
   margin: 0 auto;
   padding: 1.5rem 0;
   width: 60%; }
-
-h1 {
-  font-weight: bold;
-  font-size: 2em;
-  line-height: 1.5em;
-  text-align: center; }
-
-p {
-  margin-bottom: 1.5rem; }
-
-hr {
-  border: none;
-  border-top: .125rem solid #ddd;
-  margin-bottom: 1.375rem; }
-
-a {
-  border-bottom: 2px solid #333;
-  color: #333;
-  text-decoration: none;
-  transition: all .125s ease-in-out; }
-
-a:hover {
-  border-bottom-color: #4a7298;
-  color: #4a7298; }
-  a:hover img {
-    -webkit-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg); }
+  main h1 {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center; }
+  main p {
+    margin-bottom: 1.5rem; }
+  main hr {
+    border: none;
+    border-top: .125rem solid #ddd;
+    margin-bottom: 1.375rem; }
+  main a {
+    border-bottom: 2px solid #333;
+    color: #333;
+    text-decoration: none;
+    transition: all .125s ease-in-out; }
+  main a:hover {
+    border-bottom-color: #4a7298;
+    color: #4a7298; }
+    main a:hover img {
+      -webkit-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg); }
 
 /* General photoset style */
 .photoset {
