@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
+<meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
 <title>Ian Ryan Clarke</title>
 	<meta charset="utf-8" />
