@@ -111,7 +111,7 @@ li {
 #content {
   position: relative;
   min-width: 640px;
-  padding: 20px 0px 10px 10px;
+  padding: 20px 0px 10px 70px;
   padding-left: 10px;
   margin: 0 auto;
   line-height: 1.7; }
@@ -297,26 +297,21 @@ main {
     max-width: 100%; } }
 /*--------------- Section colours-----------------*/
 .section1 {
-  padding-left: 70px;
   width: 100%;
   background-color: #47aadd; }
 
 .section2 {
-  padding-left: 70px;
   width: 100%;
   background-color: #006ba4; }
 
 .section3 {
-  padding-left: 70px;
   width: 100%;
   background-color: #006ba4; }
 
 .section4 {
-  padding-left: 70px;
   width: 100%;
   background-color: #006ba4; }
 
 .section5 {
-  padding-left: 70px;
   width: 100%;
   background-color: #006ba4; }

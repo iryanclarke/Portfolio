@@ -150,7 +150,7 @@ $section5-color: #228c48;
 #content {
 	position: relative;
 	min-width: 640px;
-	padding: 20px 0px 10px 10px;
+	padding: 20px 0px 10px 70px;
 	padding-left: 10px;
 	margin: 0 auto;
 	line-height: 1.7;
@@ -362,27 +362,22 @@ and (max-width: 480px) {
 /*--------------- Section colours-----------------*/
 
 .section1{
-	padding-left: 70px;
 	width:100%;	
 	background-color: $section1-color;
 }
 .section2{
-	padding-left: 70px;
 	width:100%;	
-	background-color: $section2-color;
+	background-color: $section2-color;  
 }
 .section3{
-	padding-left: 70px;
 	width:100%;	
 	background-color: $section2-color;
 }
 .section4{
-	padding-left: 70px;
 	width:100%;	
 	background-color: $section2-color;
 }
 .section5{
-	padding-left: 70px;
 	width:100%;	
 	background-color: $section2-color;
 }
