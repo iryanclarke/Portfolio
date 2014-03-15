@@ -12,7 +12,7 @@
 
 /*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*\
 
-    NOTE: ALL MEDIA QUERIES CAN BE FOUND WITH THEIR ASSOCIATED STLYING BLOCK
+    NOTE: 
 
 \*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
 
@@ -217,7 +217,35 @@ ul.icoList{
 	li{ padding: 2px 0px 0px 30px; }
 }
 
-/*--------------- iGrid CSS -----------------*/
+/*--------------- Section colours-----------------*/
+
+.section1{
+	width:100%;	
+	background-color: $section1-color;
+}
+.section2{
+	width:100%;	
+	background-color: $section2-color;  
+}
+.section3{
+	width:100%;	
+	background-color: $section2-color;
+}
+.section4{
+	width:100%;	
+	background-color: $section2-color;
+}
+.section5{
+	width:100%;	
+	background-color: $section2-color;
+}
+
+
+/*----------------------------------------------------------*\
+
+    2. Image Grid styling (igrid)
+
+\*----------------------------------------------------------*/
 
 main {
 	margin: 0 auto;
@@ -336,48 +364,57 @@ and (max-width: 768px) {
   }
 }
 
-@media screen
-and (max-width: 480px) { 
-  .photoset .photoset-row {
-    width: 100%;
+
+
+
+
+
+/*----------------------------------------------------------*\
+
+    4. MEDIA QUERIES
+
+\*----------------------------------------------------------*/
+
+/* MOBILE */
+@media only screen and (max-width: 40em) {
+	/* content */
+	#content {
+		padding: 20px 10px 10px 10px;
+		min-width: 0px; 
+	}
+	main {
+		width: 100%;
+	}
+	/* Image grid */ 
+	photoset .photoset-row {
+	    width: 100%;
+	  }
+	  .photoset .photoset-item {
+	    float: none;
+	    margin: 0 0 .75em 0;
+	  }
+	  .photoset figcaption {
+	    display: block;
+	    -webkit-transform: none;
+	    transform: none;
+	    position: relative;
+	  }
+	  .photoset img {
+	    max-width: 100%;
   }
-  .photoset .photoset-item {
-    float: none;
-    margin: 0 0 .75em 0;
-  }
-  .photoset figcaption {
-    display: block;
-    -webkit-transform: none;
-    transform: none;
-    position: relative;
-  }
-  .photoset img {
-    max-width: 100%;
-  }
 }
 
+/* MEDIUM SCREENS  */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
+}
 
-
-/*--------------- Section colours-----------------*/
-
-.section1{
-	width:100%;	
-	background-color: $section1-color;
-}
-.section2{
-	width:100%;	
-	background-color: $section2-color;  
-}
-.section3{
-	width:100%;	
-	background-color: $section2-color;
-}
-.section4{
-	width:100%;	
-	background-color: $section2-color;
-}
-.section5{
-	width:100%;	
-	background-color: $section2-color;
+/* LARGE SCREENS AND UP*/
+@media only screen and (min-width: 64.063em) {
+	/* content */
+	#content {
+		min-width: 640px;
+		padding: 20px 0px 10px 70px;
+		padding-left: 10px;
+		}
 }

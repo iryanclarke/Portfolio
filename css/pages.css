@@ -11,7 +11,7 @@
 \*------------------------------*/
 /*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*\
 
-    NOTE: ALL MEDIA QUERIES CAN BE FOUND WITH THEIR ASSOCIATED STLYING BLOCK
+    NOTE: 
 
 \*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
 /*------------------------------------*\
@@ -180,7 +180,32 @@ ul.icoList {
   ul.icoList li {
     padding: 2px 0px 0px 30px; }
 
-/*--------------- iGrid CSS -----------------*/
+/*--------------- Section colours-----------------*/
+.section1 {
+  width: 100%;
+  background-color: #47aadd; }
+
+.section2 {
+  width: 100%;
+  background-color: #006ba4; }
+
+.section3 {
+  width: 100%;
+  background-color: #006ba4; }
+
+.section4 {
+  width: 100%;
+  background-color: #006ba4; }
+
+.section5 {
+  width: 100%;
+  background-color: #006ba4; }
+
+/*----------------------------------------------------------*\
+
+    2. Image Grid styling (igrid)
+
+\*----------------------------------------------------------*/
 main {
   margin: 0 auto;
   padding: 1.5rem 0;
@@ -279,8 +304,23 @@ main {
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .photoset figcaption {
     display: none; } }
-@media screen and (max-width: 480px) {
-  .photoset .photoset-row {
+/*----------------------------------------------------------*\
+
+    4. MEDIA QUERIES
+
+\*----------------------------------------------------------*/
+/* MOBILE */
+@media only screen and (max-width: 40em) {
+  /* content */
+  #content {
+    padding: 20px 10px 10px 10px;
+    min-width: 0px; }
+
+  main {
+    width: 100%; }
+
+  /* Image grid */
+  photoset .photoset-row {
     width: 100%; }
 
   .photoset .photoset-item {
@@ -295,23 +335,11 @@ main {
 
   .photoset img {
     max-width: 100%; } }
-/*--------------- Section colours-----------------*/
-.section1 {
-  width: 100%;
-  background-color: #47aadd; }
-
-.section2 {
-  width: 100%;
-  background-color: #006ba4; }
-
-.section3 {
-  width: 100%;
-  background-color: #006ba4; }
-
-.section4 {
-  width: 100%;
-  background-color: #006ba4; }
-
-.section5 {
-  width: 100%;
-  background-color: #006ba4; }
+/* MEDIUM SCREENS  */
+/* LARGE SCREENS AND UP*/
+@media only screen and (min-width: 64.063em) {
+  /* content */
+  #content {
+    min-width: 640px;
+    padding: 20px 0px 10px 70px;
+    padding-left: 10px; } }
