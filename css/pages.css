@@ -336,6 +336,31 @@ main {
   .photoset img {
     max-width: 100%; } }
 /* MEDIUM SCREENS  */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* content */
+  #content {
+    padding: 20px 10px 10px 10px;
+    min-width: 0px; }
+
+  main {
+    width: 100%; }
+
+  /* Image grid */
+  photoset .photoset-row {
+    width: 100%; }
+
+  .photoset .photoset-item {
+    float: none;
+    margin: 0 0 .75em 0; }
+
+  .photoset figcaption {
+    display: block;
+    -webkit-transform: none;
+    transform: none;
+    position: relative; }
+
+  .photoset img {
+    max-width: 100%; } }
 /* LARGE SCREENS AND UP*/
 @media only screen and (min-width: 64.063em) {
   /* content */
