@@ -54,3 +54,109 @@ a:hover {
   color: #f36b6b;
   padding-left: 15px;
   padding-right: 15px; }
+
+/* FONTS */
+@font-face {
+  font-family: 'industryblack';
+  src: url("fonts/industry-black-webfont.eot");
+  src: url("fonts/industry-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-black-webfont.woff") format("woff"), url("fonts/industry-black-webfont.ttf") format("truetype"), url("fonts/industry-black-webfont.svg#industryblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industryblack_italic';
+  src: url("fonts/industry-blackitalic-webfont.eot");
+  src: url("fonts/industry-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-blackitalic-webfont.woff") format("woff"), url("fonts/industry-blackitalic-webfont.ttf") format("truetype"), url("fonts/industry-blackitalic-webfont.svg#industryblack_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrybold';
+  src: url("fonts/industry-bold-webfont.eot");
+  src: url("fonts/industry-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-bold-webfont.woff") format("woff"), url("fonts/industry-bold-webfont.ttf") format("truetype"), url("fonts/industry-bold-webfont.svg#industrybold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrybold_italic';
+  src: url("fonts/industry-bolditalic-webfont.eot");
+  src: url("fonts/industry-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-bolditalic-webfont.woff") format("woff"), url("fonts/industry-bolditalic-webfont.ttf") format("truetype"), url("fonts/industry-bolditalic-webfont.svg#industrybold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrybold_italic';
+  src: url("fonts/industry-bolditalic-webfont.eot");
+  src: url("fonts/industry-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-bolditalic-webfont.woff") format("woff"), url("fonts/industry-bolditalic-webfont.ttf") format("truetype"), url("fonts/industry-bolditalic-webfont.svg#industrybold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrybook';
+  src: url("fonts/industry-book-webfont.eot");
+  src: url("fonts/industry-book-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-book-webfont.woff") format("woff"), url("fonts/industry-book-webfont.ttf") format("truetype"), url("fonts/industry-book-webfont.svg#industrybook") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrybook_italic';
+  src: url("fonts/industry-bookitalic-webfont.eot");
+  src: url("fonts/industry-bookitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-bookitalic-webfont.woff") format("woff"), url("fonts/industry-bookitalic-webfont.ttf") format("truetype"), url("fonts/industry-bookitalic-webfont.svg#industrybook_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrydemi';
+  src: url("fonts/industry-demi-webfont.eot");
+  src: url("fonts/industry-demi-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-demi-webfont.woff") format("woff"), url("fonts/industry-demi-webfont.ttf") format("truetype"), url("fonts/industry-demi-webfont.svg#industrydemi") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrydemi_italic';
+  src: url("fonts/industry-demiitalic-webfont.eot");
+  src: url("fonts/industry-demiitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-demiitalic-webfont.woff") format("woff"), url("fonts/industry-demiitalic-webfont.ttf") format("truetype"), url("fonts/industry-demiitalic-webfont.svg#industrydemi_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrylight';
+  src: url("fonts/industry-light-webfont.eot");
+  src: url("fonts/industry-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-light-webfont.woff") format("woff"), url("fonts/industry-light-webfont.ttf") format("truetype"), url("fonts/industry-light-webfont.svg#industrylight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrylight_italic';
+  src: url("fonts/industry-lightitalic-webfont.eot");
+  src: url("fonts/industry-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-lightitalic-webfont.woff") format("woff"), url("fonts/industry-lightitalic-webfont.ttf") format("truetype"), url("fonts/industry-lightitalic-webfont.svg#industrylight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrymedium';
+  src: url("fonts/industry-medium-webfont.eot");
+  src: url("fonts/industry-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-medium-webfont.woff") format("woff"), url("fonts/industry-medium-webfont.ttf") format("truetype"), url("fonts/industry-medium-webfont.svg#industrymedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrymedium_italic';
+  src: url("fonts/industry-mediumitalic-webfont.eot");
+  src: url("fonts/industry-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-mediumitalic-webfont.woff") format("woff"), url("fonts/industry-mediumitalic-webfont.ttf") format("truetype"), url("fonts/industry-mediumitalic-webfont.svg#industrymedium_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrythin';
+  src: url("fonts/industry-thin-webfont.eot");
+  src: url("fonts/industry-thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-thin-webfont.woff") format("woff"), url("fonts/industry-thin-webfont.ttf") format("truetype"), url("fonts/industry-thin-webfont.svg#industrythin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'industrythin_italic';
+  src: url("fonts/industry-thinitalic-webfont.eot");
+  src: url("fonts/industry-thinitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/industry-thinitalic-webfont.woff") format("woff"), url("fonts/industry-thinitalic-webfont.ttf") format("truetype"), url("fonts/industry-thinitalic-webfont.svg#industrythin_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
