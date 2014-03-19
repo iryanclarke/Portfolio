@@ -35,14 +35,14 @@ a:hover {
   background: #262626;
   z-index: 8;
   position: fixed; }
-
-#branding h1 {
-  padding: 0px 45px;
-  margin: 0 auto;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif; }
+  #branding h1 {
+    padding: 0px 45px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Industry Bold', sans-serif; }
+  #branding .links a {
+    font-family: 'Industry Book', sans-serif; }
 
 .links {
   float: right;
@@ -55,7 +55,11 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px; }
 
-/* FONTS */
+/*--------------------------------------*\
+
+    FONTS
+
+\*--------------------------------------*/
 @font-face {
   font-family: 'industryblack';
   src: url("fonts/industry-black-webfont.eot");

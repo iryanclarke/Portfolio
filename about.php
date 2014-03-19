@@ -5,16 +5,16 @@
 <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 <title>About Me</title>
 
-<!-- Stylesheets-->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" media="all" href="css/banner.css" />
-	<link rel="stylesheet" media="all" href="css/pages.css" />
-    <link rel="shortcut icon" href="img/favicon.ico">
 <!-- jQuery and js -->
 	<script src="js/modernizr.custom.37797.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.queryloader2.js"></script>
     <script src="js/include.js"></script>
+    <!-- Stylesheets-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="all" href="css/banner.css" />
+    <link rel="stylesheet" media="all" href="css/pages.css" />
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>

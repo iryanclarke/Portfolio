@@ -2,7 +2,7 @@
         <header id="branding">
         	<div class="nav">
             	<div class="iryan" style="float:left">
-                	<h1><a href="index.php">Ian Ryan Clarke</a></h1>
+                	<h1><a href="index.php">IAN RYAN CLARKE</a></h1>
                 </div>
                  <div class="links" style="float:right;vertical-align:middle">
                 	<a href="portfolio.php">Portfolio</a>
