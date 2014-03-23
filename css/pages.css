@@ -257,8 +257,9 @@ main {
   .photoset figcaption {
     background: #FFF;
     box-sizing: border-box;
-    font-size: .75rem;
+    font-size: .95rem;
     padding: .5rem;
+    text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -304,6 +305,22 @@ main {
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .photoset figcaption {
     display: none; } }
+@media screen and (max-width: 480px) {
+  .photoset .photoset-row {
+    width: 100%; }
+
+  .photoset .photoset-item {
+    float: none;
+    margin: 0 0 .75em 0; }
+
+  .photoset figcaption {
+    display: block;
+    -webkit-transform: none;
+    transform: none;
+    position: relative; }
+
+  .photoset img {
+    max-width: 100%; } }
 /*----------------------------------------------------------*\
 
     4. MEDIA QUERIES
@@ -317,24 +334,7 @@ main {
     min-width: 0px; }
 
   main {
-    width: 100%; }
-
-  /* Image grid */
-  photoset .photoset-row {
-    width: 100%; }
-
-  .photoset .photoset-item {
-    float: none;
-    margin: 0 0 .75em 0; }
-
-  .photoset figcaption {
-    display: block;
-    -webkit-transform: none;
-    transform: none;
-    position: relative; }
-
-  .photoset img {
-    max-width: 100%; } }
+    width: 100%; } }
 /* MEDIUM SCREENS  */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* content */
@@ -343,24 +343,7 @@ main {
     min-width: 0px; }
 
   main {
-    width: 100%; }
-
-  /* Image grid */
-  photoset .photoset-row {
-    width: 100%; }
-
-  .photoset .photoset-item {
-    float: none;
-    margin: 0 0 .75em 0; }
-
-  .photoset figcaption {
-    display: block;
-    -webkit-transform: none;
-    transform: none;
-    position: relative; }
-
-  .photoset img {
-    max-width: 100%; } }
+    width: 100%; } }
 /* LARGE SCREENS AND UP*/
 @media only screen and (min-width: 64.063em) {
   /* content */
