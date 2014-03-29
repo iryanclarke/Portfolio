@@ -26,7 +26,7 @@
     ?>      
         
         <nav id="primary">
-            <ul id = "scroll">
+            <ul id ="scroll">
                 <li>
                     <h1>Welcome</h1>
                     <a class="welcome" href="#welcome" data-code="0">View</a>

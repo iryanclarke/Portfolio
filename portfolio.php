@@ -33,66 +33,70 @@
             </div>   
    </div>         
    
-    
-    <div class="section1">   
+   <div class="section1" style="display:none;">   
         <div id="content">
-        	<main>
-            <h1>Photoset (advanced)</h1>
-                <hr />
-                <div class="photoset">
-                    <div class="photoset-row">
-                        <figure class="photoset-item">
-                            <a href="#"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
-                            <figcaption><h3>MiniTab landing page</h3> <h4>Web Development</h4></figcaption>
-                        </figure>
-                    </div>
-                    <div class="photoset-row">
-                        <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/24hrPQn.jpg" alt="A lady walks briskly on a train platform in Bern, Switzerland." title="A lady walks briskly on a train platform in Bern, Switzerland." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                        </figure>
-                        <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/BXo4qAz.jpg" alt="Inside Rundetårn, Copenhagen." title="Inside Rundetårn, Copenhagen." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                        </figure>
-                    </div>
-                    <div class="photoset-row">
-                        <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/Vo922iy.jpg" alt="By Twilight." title="By Twilight." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                        </figure>
-                        <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/80WaVuY.jpg" alt="God fest på Mejlgade." title="God fest på Mejlgade." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                        </figure>
-                        <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/uDPcnM3.jpg" alt="Sit Back" title="Sit Back" /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                        </figure>
-                    </div>
+            
+
+        </div>  
+    </div>
+
+    <div class="section1">  
+    	<main>
+        <h1>Photoset (advanced)</h1>
+            <hr />
+            <div class="photoset">
                 <div class="photoset-row">
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/esWWGbF.jpg" alt="Basilique du Sacré-Cœur." title="Basilique du Sacré-Cœur." /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/ZCogT10.jpg" alt="Cyclist in Berlin" title="Cyclist in Berlin" /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
+                    <figure class="photoset-item">
+                        <a href="#"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
+                        <figcaption><h3>MiniTab landing page</h3> <h4>Web Development</h4></figcaption>
+                    </figure>
                 </div>
                 <div class="photoset-row">
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/UvGHJjo.jpg" alt="At the annual sailing race in Aarhus University." title="At the annual sailing race in Aarhus University." /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/rWuQotb.jpg" alt="Dark corridors." title="Dark corridors." /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
+                    <figure class="photoset-item">
+                        <a href="#"><img src="http://i.imgur.com/24hrPQn.jpg" alt="A lady walks briskly on a train platform in Bern, Switzerland." title="A lady walks briskly on a train platform in Bern, Switzerland." /></a>
+                        <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                    </figure>
+                    <figure class="photoset-item">
+                        <a href="#"><img src="http://i.imgur.com/BXo4qAz.jpg" alt="Inside Rundetårn, Copenhagen." title="Inside Rundetårn, Copenhagen." /></a>
+                        <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                    </figure>
                 </div>
+                <div class="photoset-row">
+                    <figure class="photoset-item">
+                        <a href="#"><img src="http://i.imgur.com/Vo922iy.jpg" alt="By Twilight." title="By Twilight." /></a>
+                        <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                    </figure>
+                    <figure class="photoset-item">
+                        <a href="#"><img src="http://i.imgur.com/80WaVuY.jpg" alt="God fest på Mejlgade." title="God fest på Mejlgade." /></a>
+                        <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                    </figure>
+                    <figure class="photoset-item">
+                        <a href="#"><img src="http://i.imgur.com/uDPcnM3.jpg" alt="Sit Back" title="Sit Back" /></a>
+                        <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                    </figure>
                 </div>
-            </main>
-        </div>
+            <div class="photoset-row">
+              <figure class="photoset-item">
+                <a href="#"><img src="http://i.imgur.com/esWWGbF.jpg" alt="Basilique du Sacré-Cœur." title="Basilique du Sacré-Cœur." /></a>
+                <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+              </figure>
+              <figure class="photoset-item">
+                <a href="#"><img src="http://i.imgur.com/ZCogT10.jpg" alt="Cyclist in Berlin" title="Cyclist in Berlin" /></a>
+                <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+              </figure>
+            </div>
+            <div class="photoset-row">
+              <figure class="photoset-item">
+                <a href="#"><img src="http://i.imgur.com/UvGHJjo.jpg" alt="At the annual sailing race in Aarhus University." title="At the annual sailing race in Aarhus University." /></a>
+                <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+              </figure>
+              <figure class="photoset-item">
+                <a href="#"><img src="http://i.imgur.com/rWuQotb.jpg" alt="Dark corridors." title="Dark corridors." /></a>
+                <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+              </figure>
+            </div>
+            </div>
+        </main>
     </div>   
     <script src="js/gAnalytics.js"></script> 
          

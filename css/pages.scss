@@ -149,11 +149,9 @@ $section5-color: #228c48;
 /* content */
 #content {
 	position: relative;
-	min-width: 640px;
-	padding: 20px 0px 10px 70px;
-	padding-left: 10px;
 	margin: 0 auto;
 	line-height: 1.7;
+
 	}
 h1 {
 	margin: 0 0 0 0;
@@ -426,6 +424,5 @@ and (max-width: 480px) {
 	#content {
 		min-width: 640px;
 		padding: 20px 0px 10px 70px;
-		padding-left: 10px;
 	}
 }
