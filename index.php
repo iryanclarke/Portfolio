@@ -14,7 +14,6 @@
     <script src="js/include.js"></script>
 	<script src="js/parallax.js"></script>
     <!-- Stylesheets-->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="all" href="css/banner.css" />
     <link rel="stylesheet" media="all" href="css/style.css" />
     <link rel="shortcut icon" href="img/favicon.ico">
