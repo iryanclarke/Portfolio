@@ -15,7 +15,7 @@
 	<script src="js/parallax.js"></script>
     <!-- Stylesheets-->
     <link rel="stylesheet" media="all" href="css/banner.css" />
-    <link rel="stylesheet" media="all" href="css/style.css" />
+    <link rel="stylesheet" media="all" href="css/parallax.css" />
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
