@@ -18,19 +18,13 @@
  var previous;
   function showContent() {
     var $text = $('.test1');
-    console.log('Call ma nigga?');
     if ( visible ) {
-      console.log('It visible');
       $text.slideUp('slow',function(){
-        console.log('Shold have added class');
-
         $text.addClass('hide')
              .slideDown(0);
       });
     } else {
-      console.log('It not visible');
       $text.slideUp(0,function(){
-        console.log('Shold have removed class');
         $text.removeClass('hide')
              .slideDown('slow');
       });
