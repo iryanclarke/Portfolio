@@ -69,7 +69,7 @@ $section5-color: #228c48;
 	p {
 		margin:1em 0;
 		color: #FFF;
-		width: 75%;
+		width: 100%;
 		}
 	p1 {
 		margin:1em 0;
@@ -91,7 +91,7 @@ $section5-color: #228c48;
 
 
 /* content */
-#content {
+.content {
 	position: relative;
 	margin: 0 auto;
 	line-height: 1.7;
@@ -300,6 +300,15 @@ main {
 	}
 }
 
+
+// Photogrid description stuff
+.hide {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
+
 .photoset-item a {
   background-position: center center;
   background-size: cover;
@@ -352,7 +361,7 @@ and (max-width: 480px) {
 /* MOBILE */
 @media only screen and (max-width: 40em) {
 	/* content */
-	#content {
+	.content {
 		padding: 20px 10px 10px 10px;
 		min-width: 0px; 
 	}
@@ -364,7 +373,7 @@ and (max-width: 480px) {
 /* MEDIUM SCREENS  */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	/* content */
-	#content {
+	.content {
 		padding: 20px 10px 10px 10px;
 		min-width: 0px; 
 	}
@@ -376,8 +385,8 @@ and (max-width: 480px) {
 /* LARGE SCREENS AND UP*/
 @media only screen and (min-width: 64.063em) {
 	/* content */
-	#content {
+	.content {
 		min-width: 640px;
-		padding: 20px 20px 10px 70px;
+		padding: 20px 70px 10px 70px;
 	}
 }

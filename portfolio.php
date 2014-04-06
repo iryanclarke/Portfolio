@@ -24,8 +24,7 @@
         include 'banner.php';
     ?> 
    
-   <div class ="wrapper">
-       <div id="content">
+       <div class="content">
                 <div class="label">
                       <h2><span style="background-color:#006ba4;padding:10px">Portfolio</span></h2>
                       <p>&nbsp;</p>
@@ -33,21 +32,27 @@
                 </div>   
        </div>         
        
-       <div class="section1" style="display:none;">   
-            <div id="content">
-
-
-            </div>  
-        </div>
-
+        <div class="section5">  
+            <div class="content test1  hide">
+                <h3>This is some information about bloo bloochoo</h3>
+                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
+                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+                <p>Content is coming soon! :)</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </div> 
+        </div>   
+    
         <div class="section1">  
         	<main>
-            <h1>Photoset (advanced)</h1>
+            <h1>Portfolio</h1>
                 <hr />
                 <div class="photoset">
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a href="#"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
+                            <a onClick="showContent()"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
                             <figcaption><h3>MiniTab landing page</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                     </div>
@@ -85,20 +90,9 @@
                     <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
                   </figure>
                 </div>
-                <div class="photoset-row">
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/UvGHJjo.jpg" alt="At the annual sailing race in Aarhus University." title="At the annual sailing race in Aarhus University." /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/rWuQotb.jpg" alt="Dark corridors." title="Dark corridors." /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
-                </div>
                 </div>
             </main>
         </div>   
-    </div>
         
     <script src="js/gAnalytics.js"></script> 
          

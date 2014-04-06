@@ -22,8 +22,8 @@
         include 'banner.php';
     ?> 
    
-   <div class ="wrapper">
-       <div id="content">
+   <div class="wrapper">
+       <div class="content">
                 <div class="label">
                       <h2><span style="background-color:#006ba4;padding:10px">Contact me</span></h2>
                       <p>&nbsp;</p>
@@ -32,7 +32,7 @@
        </div> 
        
         <div class="section1">
-           <div id="content" style="display:block;overflow:auto;">
+           <div class="content" style="display:block;overflow:auto;">
            		<h3>Find me on:</h3>
                 <ul class='icoList'>
                 	<a href="mailto:ian@iryanclarke.com"><li class="email">ian@iryanclarke.com</li></a>

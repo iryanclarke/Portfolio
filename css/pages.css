@@ -49,7 +49,7 @@ img {
 p {
   margin: 1em 0;
   color: #FFF;
-  width: 75%; }
+  width: 100%; }
 
 p1 {
   margin: 1em 0;
@@ -64,13 +64,13 @@ li {
 
 \*----------------------------------------------------------*/
 /* content */
-#content {
+.content {
   position: relative;
   margin: 0 auto;
   line-height: 1.7; }
-  #content .label {
+  .content .label {
     padding-top: 70px; }
-    #content .label h2 {
+    .content .label h2 {
       float: right;
       padding-right: 150px; }
 
@@ -251,6 +251,11 @@ main {
     -ms-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg);
     -o-transform: scale3d(1.08, 1.08, 1) translate3d(0, -25px, 0) rotate(0.1deg); }
 
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important; }
+
 .photoset-item a {
   background-position: center center;
   background-size: cover;
@@ -287,7 +292,7 @@ main {
 /* MOBILE */
 @media only screen and (max-width: 40em) {
   /* content */
-  #content {
+  .content {
     padding: 20px 10px 10px 10px;
     min-width: 0px; }
 
@@ -296,7 +301,7 @@ main {
 /* MEDIUM SCREENS  */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* content */
-  #content {
+  .content {
     padding: 20px 10px 10px 10px;
     min-width: 0px; }
 
@@ -305,6 +310,6 @@ main {
 /* LARGE SCREENS AND UP*/
 @media only screen and (min-width: 64.063em) {
   /* content */
-  #content {
+  .content {
     min-width: 640px;
-    padding: 20px 20px 10px 70px; } }
+    padding: 20px 70px 10px 70px; } }
