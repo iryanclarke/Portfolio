@@ -6,7 +6,7 @@
 <title>Portfolio</title>
 
 
-<!-- jQuery and js -->
+    <!-- jQuery and js -->
 	<script src="js/modernizr.custom.37797.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.queryloader2.js"></script>
@@ -37,11 +37,22 @@
                 <h3>This is some information about bloo bloochoo</h3>
                 <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
                 <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
-                <p>Content is coming soon! :)</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
+            </div> 
+            <div class="content test2  hide">
+                <h3>CONTENT 2</h3>
+                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
+                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+            </div> 
+            <div class="content test3  hide">
+                <h3>CONTENT 3</h3>
+                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
+                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+            </div> 
+
+            <div class="content test4  hide">
+                <h3>CONTENT 4</h3>
+                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
+                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
             </div> 
         </div>   
     
@@ -52,23 +63,23 @@
                 <div class="photoset">
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a onClick="showContent()"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
+                            <a onClick="showContent('.test1')"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
                             <figcaption><h3>MiniTab landing page</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                     </div>
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/24hrPQn.jpg" alt="A lady walks briskly on a train platform in Bern, Switzerland." title="A lady walks briskly on a train platform in Bern, Switzerland." /></a>
+                            <a onClick="showContent('.test2')"><img src="http://i.imgur.com/24hrPQn.jpg" alt="A lady walks briskly on a train platform in Bern, Switzerland." title="A lady walks briskly on a train platform in Bern, Switzerland." /></a>
                             <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/BXo4qAz.jpg" alt="Inside Rundetårn, Copenhagen." title="Inside Rundetårn, Copenhagen." /></a>
+                            <a onClick="showContent('.test3')"><img src="http://i.imgur.com/BXo4qAz.jpg" alt="Inside Rundetårn, Copenhagen." title="Inside Rundetårn, Copenhagen." /></a>
                             <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
                         </figure>
                     </div>
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/Vo922iy.jpg" alt="By Twilight." title="By Twilight." /></a>
+                            <a onClick="showContent('.test4')"><img src="http://i.imgur.com/Vo922iy.jpg" alt="By Twilight." title="By Twilight." /></a>
                             <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
