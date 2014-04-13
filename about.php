@@ -34,8 +34,8 @@
         
         <div class="section2">
            <div class="content">
-                <h3>My Life</h3>
-                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
+                <h3 class="background"><img src="img/icons/journal.png" align="middle">Background</h3>
+                <p>My interest and love for Web and Graphic design began way back in grade 9, when I took a tech class and began hashing out websites using good 'ol DreamWeaver's <b>design</b> view. <i>(I now shudder)</i> </p>
                 <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
                 <p>Content is coming soon! :)</p>
                 <p>&nbsp;</p>

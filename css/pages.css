@@ -43,36 +43,18 @@ body {
   font-size: 14px;
   font-family: 'Industry-Book', sans-serif; }
 
-img {
-  display: block; }
-
 p {
   margin: 1em 0;
+  font-size: 15px;
   color: #FFF;
   width: 100%; }
-
-p1 {
-  margin: 1em 0;
-  color: #FFF; }
+  p b {
+    font-family: 'Industry-Bold', sans-serif; }
+  p i {
+    font-family: 'Industry-BookItalic', sans-serif; }
 
 li {
   color: #FFF; }
-
-/*----------------------------------------------------------*\
-
-    1. CONTENT STYLING
-
-\*----------------------------------------------------------*/
-/* content */
-.content {
-  position: relative;
-  margin: 0 auto;
-  line-height: 1.7; }
-  .content .label {
-    padding-top: 70px; }
-    .content .label h2 {
-      float: right;
-      padding-right: 150px; }
 
 h1 {
   margin: 0 0 0 0;
@@ -94,9 +76,28 @@ h2 {
 h3 {
   margin: 0 0 0 0;
   font-size: 18px;
-  font-family: 'Industry-Bold', sans-serif;
+  display: inline-block;
+  font-family: 'Industry-BoldItalic', sans-serif;
   font-weight: bold;
-  color: #333; }
+  color: #FFF; }
+
+/*----------------------------------------------------------*\
+
+    1. CONTENT STYLING
+
+\*----------------------------------------------------------*/
+/* content */
+.content {
+  position: relative;
+  margin: 0 auto;
+  line-height: 1.7; }
+  .content .label {
+    padding-top: 70px; }
+    .content .label h2 {
+      float: right;
+      padding-right: 150px; }
+  .content h3, .content img {
+    vertical-align: middle !important; }
 
 .footer {
   clear: both;
