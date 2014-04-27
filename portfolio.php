@@ -33,23 +33,23 @@
        </div>         
        
         <div class="section5">  
-            <div class="content test1  hide">
+            <div class="content test1 hide">
                 <h3>This is some information about bloo bloochoo</h3>
                 <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
                 <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
             </div> 
-            <div class="content test2  hide">
+            <div class="content test2 hide">
                 <h3>CONTENT 2</h3>
                 <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
                 <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
             </div> 
-            <div class="content test3  hide">
+            <div class="content test3 hide">
                 <h3>CONTENT 3</h3>
                 <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
                 <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
             </div> 
 
-            <div class="content test4  hide">
+            <div class="content test4 hide">
                 <h3>CONTENT 4</h3>
                 <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
                 <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
@@ -58,7 +58,7 @@
     
         <div class="section1">  
         	<main>
-            <h1>Portfolio</h1>
+            <h3>Click on the images to see more information!</h3>
                 <hr />
                 <div class="photoset">
                     <div class="photoset-row">

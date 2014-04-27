@@ -120,17 +120,23 @@ ul.icoList {
   ul.icoList li.email {
     background: url(../img/icons/email.png) no-repeat left top; }
   ul.icoList li.email:hover {
-    background: url(../img/icons/behance.png) no-repeat left top; }
+    background: url(../img/icons/email-active.png) no-repeat left top; }
   ul.icoList li.linkedin {
-    background: url(../img/icons/email.png) no-repeat left top; }
+    background: url(../img/icons/linkedin.png) no-repeat left top; }
+  ul.icoList li.linkedin:hover {
+    background: url(../img/icons/linkedin-active.png) no-repeat left top; }
   ul.icoList li.twitter {
-    background: url(../img/icons/email.png) no-repeat left top; }
+    background: url(../img/icons/twitter.png) no-repeat left top; }
+  ul.icoList li.twitter:hover {
+    background: url(../img/icons/twitter-active.png) no-repeat left top; }
   ul.icoList li.github {
-    background: url(../img/icons/email.png) no-repeat left top; }
+    background: url(../img/icons/github.png) no-repeat left top; }
+  ul.icoList li.github:hover {
+    background: url(../img/icons/github-active.png) no-repeat left top; }
   ul.icoList li.stack {
-    background: url(../img/icons/email.png) no-repeat left top; }
-  ul.icoList li.linkedin {
-    background: url(../img/icons/email.png) no-repeat left top; }
+    background: url(../img/icons/stackoverflow.png) no-repeat left top; }
+  ul.icoList li.stack:hover {
+    background: url(../img/icons/stackoverflow-active.png) no-repeat left top; }
   ul.icoList li:hover {
     color: #D0E64B; }
   ul.icoList li {
@@ -174,6 +180,9 @@ main {
     font-size: 2em;
     line-height: 1.5em;
     text-align: center; }
+  main h3 {
+    text-align: center;
+    font-size: 1.5em; }
   main p {
     margin-bottom: 1.5rem; }
   main hr {
@@ -195,6 +204,8 @@ main {
 .photoset {
   overflow: hidden;
   width: 100%; }
+  .photoset h3 {
+    color: #000; }
   .photoset .photoset-row {
     margin-bottom: .3rem;
     overflow: hidden;

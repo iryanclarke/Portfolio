@@ -151,12 +151,15 @@ ul.icoList{
 	margin: 0; 
 	vertical-align: middle;
 	li.email { background: url(../img/icons/email.png) no-repeat left top; }
-	li.email:hover { background: url(../img/icons/behance.png) no-repeat left top; }
-	li.linkedin { background: url(../img/icons/email.png)  no-repeat left top; }
-	li.twitter { background: url(../img/icons/email.png)  no-repeat left top; }
-	li.github { background: url(../img/icons/email.png)  no-repeat left top; }
-	li.stack { background: url(../img/icons/email.png)  no-repeat left top; }
-	li.linkedin { background: url(../img/icons/email.png)  no-repeat left top; }
+	li.email:hover { background: url(../img/icons/email-active.png) no-repeat left top; }
+	li.linkedin { background: url(../img/icons/linkedin.png)  no-repeat left top; }
+	li.linkedin:hover { background: url(../img/icons/linkedin-active.png)  no-repeat left top; }
+	li.twitter { background: url(../img/icons/twitter.png)  no-repeat left top; }
+	li.twitter:hover { background: url(../img/icons/twitter-active.png)  no-repeat left top; }
+	li.github { background: url(../img/icons/github.png)  no-repeat left top; }
+	li.github:hover { background: url(../img/icons/github-active.png)  no-repeat left top; }
+	li.stack { background: url(../img/icons/stackoverflow.png)  no-repeat left top; }
+	li.stack:hover { background: url(../img/icons/stackoverflow-active.png)  no-repeat left top; }
 	li:hover { color: #D0E64B;  }
 	li{ 
 		padding: 2px 0px 0px 30px; 
@@ -208,6 +211,10 @@ main {
 	  line-height: 1.5em;
 	  text-align: center;
 	}
+	h3 {
+	  text-align: center;
+	  font-size: 1.5em;
+	}
 	p {
 	  margin-bottom: 1.5rem;
 	}
@@ -234,7 +241,7 @@ main {
 .photoset {
 	overflow: hidden;
 	width: 100%;
-
+	h3 { color: #000; }
 	.photoset-row {
 		margin-bottom: .3rem;
 		overflow: hidden;
