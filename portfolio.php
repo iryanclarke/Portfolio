@@ -63,18 +63,18 @@
                 <div class="photoset">
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test1')"><img src="img/photogallery/minitab-desktop.png" alt="ARoS Aarhus Kunstmuseum" title="ARoS Aarhus Kunstmuseum" /></a>
+                            <a onClick="showContent('.test1')"><img src="img/photogallery/minitab-desktop.png" alt="MiniTab landing page" title="MiniTab landing page" /></a>
                             <figcaption><h3>MiniTab landing page</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                     </div>
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test2')"><img src="http://i.imgur.com/24hrPQn.jpg" alt="A lady walks briskly on a train platform in Bern, Switzerland." title="A lady walks briskly on a train platform in Bern, Switzerland." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                            <a onClick="showContent('.test2')"><img src="img/photogallery/student-advantage-desktop.png" alt="MiniTab landing page" title="MiniTab landing page" /></a>
+                            <figcaption><h3>Student Advantage landing page.</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test3')"><img src="http://i.imgur.com/BXo4qAz.jpg" alt="Inside Rundetårn, Copenhagen." title="Inside Rundetårn, Copenhagen." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                            <a onClick="showContent('.test3')"><img src="img/photogallery/et-poster.png" alt="'E.T.' Movie poster" title="'E.T.' Movie poster" /></a>
+                            <figcaption><h3>'E.T.' Movie poster</h3> <h4>Illustration</h4></figcaption>
                         </figure>
                     </div>
                     <div class="photoset-row">
