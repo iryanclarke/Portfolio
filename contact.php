@@ -45,6 +45,10 @@
             </div> 
         </div>    
     </div>
+
+    <div class="content">
+          <img src="img/contactme.png">      
+    </div> 
     
     <script src="js/gAnalytics.js"></script>
          
