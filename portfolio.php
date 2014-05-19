@@ -91,16 +91,6 @@
                             <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
                         </figure>
                     </div>
-                <div class="photoset-row">
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/esWWGbF.jpg" alt="Basilique du Sacré-Cœur." title="Basilique du Sacré-Cœur." /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
-                  <figure class="photoset-item">
-                    <a href="#"><img src="http://i.imgur.com/ZCogT10.jpg" alt="Cyclist in Berlin" title="Cyclist in Berlin" /></a>
-                    <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
-                  </figure>
-                </div>
                 </div>
             </main>
         </div>   
