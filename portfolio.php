@@ -79,12 +79,12 @@
                     </div>
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test4')"><img src="http://i.imgur.com/Vo922iy.jpg" alt="By Twilight." title="By Twilight." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                            <a onClick="showContent('.test4')"><img src="img/photogallery/scroller-guage.png" alt="Web Application" title="Web Application" /></a>
+                            <figcaption><h3>Dynamic scroller guage</h3> <h4>Web Application</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/80WaVuY.jpg" alt="God fest på Mejlgade." title="God fest på Mejlgade." /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                            <a href="#"><img src="img/photogallery/stickmen-illustrations.png" alt="Stickmen for Shopify application" title="Stickmen for Shopify application" /></a>
+                            <figcaption><h3>Awesome stickmen</h3> <h4>Illustration</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
                             <a href="#"><img src="http://i.imgur.com/uDPcnM3.jpg" alt="Sit Back" title="Sit Back" /></a>
@@ -93,6 +93,7 @@
                     </div>
                 </div>
             </main>
+        <p>&nbsp;</p>
         </div>   
         
     <script src="js/gAnalytics.js"></script> 
