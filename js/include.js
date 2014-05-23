@@ -36,8 +36,6 @@ $(document).ready(function() {
         })
         if ( $prev.selector != $text.selector )
         {
-            console.log(previous);
-            console.log(content);
             $text.slideUp(0,function(){
             $text.removeClass('hide')
                  .slideDown('slow');
@@ -46,7 +44,6 @@ $(document).ready(function() {
         }  
     }
     else {
-        console.log('no p[reviouis');
         if ( visible ) {
           $text.slideUp('slow',function(){
             $text.addClass('hide')
