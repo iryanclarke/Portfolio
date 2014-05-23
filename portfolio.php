@@ -78,7 +78,7 @@
                     </div>
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test2')"><img src="img/photogallery/student-advantage-desktop.png" alt="MiniTab landing page" title="MiniTab landing page" /></a>
+                            <a onClick="showContent('.test2')"><img src="img/photogallery/student-advantage.png" alt="MiniTab landing page" title="MiniTab landing page" /></a>
                             <figcaption><h3>Student Advantage landing page.</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
@@ -88,7 +88,7 @@
                     </div>
                     <div class="photoset-row">
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test4')"><img src="img/photogallery/scroller-guage.png" alt="Web Application" title="Web Application" /></a>
+                            <a onClick="showContent('.test4')"><img src="img/photogallery/scrollerguage.png" alt="Web Application" title="Web Application" /></a>
                             <figcaption><h3>Dynamic scroller guage</h3> <h4>Web Application</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
