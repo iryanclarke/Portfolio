@@ -34,26 +34,35 @@
        
         <div class="section5">  
             <div class="content test1 hide">
-                <h3>This is some information about bloo bloochoo</h3>
-                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
-                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+                <h3>MiniTab landing page</h3>
+                <p>The Minitab Landing page was created for Kivuto Solutions, in order to replace the previous non-responsive version and give the page a visual update! I was the only person working on developing the website, and it was completed around Feburary 2014. You can find it <a href="http://onthehub.com/minitab/">here</a></p>
+                <p>Roles: Web Developer and QA tester.</p>
+                <p>Technologies used: Foundation 5, PHP, SASS, jQuery</p>
             </div> 
             <div class="content test2 hide">
-                <h3>CONTENT 2</h3>
-                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
-                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+                <h3>Student Advantage landing page</h3>
+                <p>The Student Advantage Landing page was created for Kivuto Solutions, in order to create a new streamlined way of generating leads for the Microsoft Student Advantage program. Similar to the Minitab page, I was the only person working on developing the website, and it was completed around April 2014. You can find it <a href="http://kivuto.com/microsoft-student-advantage-deployment/">here</a></p>
+                <p>Roles: Web Developer and QA tester.</p>
+                <p>Technologies used: Foundation 5, PHP, SASS, jQuery, form.js</p>
             </div> 
             <div class="content test3 hide">
-                <h3>CONTENT 3</h3>
-                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
-                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+                <h3>ET Movie poster</h3>
+                <p>This was a side project I did just to experiment around with Adobe Illustrator, and creating some complex vector objects.</p>
+                <p>Roles: Designer</p>
+                <p>Technologies used: Adobe Illustrator and VectorScribe</p>
             </div> 
-
             <div class="content test4 hide">
-                <h3>CONTENT 4</h3>
-                <p>I was born and grew up in Ottawa, Canada. As I kid I enjoyed </p>
-                <p>Fusce eget congue sapien. Pellentesque elementum ut eros ac vehicula. Aenean ullamcorper eros sed enim lobortis, sed blandit massa condimentum. Nullam ut nibh lectus. In nec lectus in lectus vehicula aliquam. Cras congue mattis gravida. Duis semper lacinia hendrerit. Curabitur pellentesque dignissim dui vel fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in arcu ornare ligula interdum auctor sit amet et elit. Nunc orci elit, imperdiet ac sodales eget, varius sed nunc. In faucibus ultricies risus nec volutpat. Sed id elementum est. Morbi ut nisi et diam feugiat tristique. Maecenas nec mi auctor, pretium neque interdum, molestie nisi.</p>
+                <h3>Scroller Guage</h3>
+                <p>This was a little hacking project I worked on, I intended it to put on any scrolling/parallax websites I made to give a cool visual representation of how far you had scrolled. It's still under development, but I intend for the max value to automatically be set to the document height! You can find it at <a href="http://iryanclarke.com/scroller-guage/">here</a></p>
+                <p>Roles: Web Developer and awesome hacker!</p>
+                <p>Technologies used: Ember.js and jQuery</p>
             </div> 
+            <div class="content test5 hide">
+                <h3>Illustrated stickmen</h3>
+                <p>I created these stickmen for my application to Shopify in May 2014, giving illustrations to each slide explaining various topics such as 'The amazing environment at Shopify' and 'The amazing team at Shopify'! If you want to look at the illustrations and website, check them out <a href="http://iryanclarke.com/myshopify/">here</a> </p>
+                <p>Roles: Designer, Illustrator and Web Developer</p>
+                <p>Technologies used: Adobe Illustrator and VectorScribe</p>
+            </div>
         </div>   
     
         <div class="section1">  
@@ -83,11 +92,11 @@
                             <figcaption><h3>Dynamic scroller guage</h3> <h4>Web Application</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a href="#"><img src="img/photogallery/stickmen-illustrations.png" alt="Stickmen for Shopify application" title="Stickmen for Shopify application" /></a>
+                            <a onClick="showContent('.test5')"><img src="img/photogallery/stickmen-illustrations.png" alt="Stickmen for Shopify application" title="Stickmen for Shopify application" /></a>
                             <figcaption><h3>Awesome stickmen</h3> <h4>Illustration</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a href="#"><img src="http://i.imgur.com/uDPcnM3.jpg" alt="Sit Back" title="Sit Back" /></a>
+                            <a><img src="http://i.imgur.com/uDPcnM3.jpg" alt="Sit Back" title="Sit Back" /></a>
                             <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
                         </figure>
                     </div>
