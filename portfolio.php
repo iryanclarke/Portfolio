@@ -63,6 +63,12 @@
                 <p>Roles: Designer, Illustrator and Web Developer</p>
                 <p>Technologies used: Adobe Illustrator and VectorScribe</p>
             </div>
+            <div class="content test6 hide">
+                <h3>Falling Motion</h3>
+                <p>This parallax website was made for a university course 'Design Studio', in order to make an interactive timeline of how motion capture is performed. I was part of a 4 person team to complete this project, and we used scrum boards and agile methodologies. You can view it<a href="http://iryanclarke.com/fallingmotion/">here</a> </p>
+                <p>Roles: Senior Web Developer and Illustrator</p>
+                <p>Technologies used: Adobe Dreamweaver, TortiseSVN, jQuery, Adobe Illustrator</p>
+            </div>
         </div>   
     
         <div class="section1">  
@@ -96,8 +102,8 @@
                             <figcaption><h3>Awesome stickmen</h3> <h4>Illustration</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a><img src="http://i.imgur.com/uDPcnM3.jpg" alt="Sit Back" title="Sit Back" /></a>
-                            <figcaption><h3>ARoS Aarhus Kunstmuseum.</h3> <h4>Photo &copy; Terry Mun</h4></figcaption>
+                            <a onClick="showContent('.test6')"><img src="img/photogallery/fallingmotion-desktop.png" alt="Falling Motion parallax website" title="Falling Motion parallax website" /></a>
+                            <figcaption><h3>Falling Motion parallax website</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                     </div>
                 </div>
