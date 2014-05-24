@@ -65,7 +65,7 @@
             </div>
             <div class="content test6 hide">
                 <h3>Falling Motion</h3>
-                <p>This parallax website was made for a university course 'Design Studio', in order to make an interactive timeline of how motion capture is performed. I was part of a 4 person team to complete this project, and we used scrum boards and agile methodologies. You can view it<a href="http://iryanclarke.com/fallingmotion/">here</a> </p>
+                <p>This parallax website was made for a university course 'Design Studio', in order to make an interactive timeline of how motion capture is performed. I was part of a 4 person team to complete this project, and we used scrum boards and agile methodologies. You can view it <a href="http://iryanclarke.com/fallingmotion/">here</a> </p>
                 <p>Roles: Senior Web Developer and Illustrator</p>
                 <p>Technologies used: Adobe Dreamweaver, TortiseSVN, jQuery, Adobe Illustrator</p>
             </div>

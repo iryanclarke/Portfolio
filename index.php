@@ -72,7 +72,7 @@
         <div id="content">
             <article id="welcome">
                 <h1><center>Welcome!</center></h1>
-                <p>Welcome to the portfolio website of Ian Clarke! This main page features a parallax scrolling timeline outlining why I love web development and graphic design!
+                <p>This page is currently under development still, so excuse the Lorem ipsum and images! I took the framework from my project <a href="http://iryanclarke.com/fallingmotion/">Falling Motion</a>. I've since optimized it and cut down on code to speed up the performance! Content is currently being produced for it!
               </p>
                 
                 <nav class="next-prev">
