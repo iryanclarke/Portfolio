@@ -102,7 +102,7 @@
                             <figcaption><h3>Awesome stickmen</h3> <h4>Illustration</h4></figcaption>
                         </figure>
                         <figure class="photoset-item">
-                            <a onClick="showContent('.test6')"><img src="img/photogallery/fallingmotion-desktop.png" alt="Falling Motion parallax website" title="Falling Motion parallax website" /></a>
+                            <a onClick="showContent('.test6')"><img src="img/photogallery/fallingmotion.png" alt="Falling Motion parallax website" title="Falling Motion parallax website" /></a>
                             <figcaption><h3>Falling Motion parallax website</h3> <h4>Web Development</h4></figcaption>
                         </figure>
                     </div>
