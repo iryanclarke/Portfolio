@@ -38,6 +38,7 @@
                 <p>My interest and love for Web and Graphic design began way back in grade 9, when I took a tech class and began hashing out websites using good 'ol DreamWeaver's <b>design</b> view. <i>(I now shudder)</i> </p>
                 <p>I now currently attend Carleton University for the Bachelor of Information Technology, in the stream of Interactive Multimedia and Design. It is here where my love for Web Development and Illustration came to fruition. </p>
                 <p>I have worked for the Canadian Medical Protective Association where I was a Web Developer and QA analyst, and Kivuto Solutions where I was a front-end developer. I enjoy being a part of internal teams, such as the Eats and Entertainment Committee at Kivuto Solutions, where we would plan montly company events. </p>
+                <p>If you would like a comprehensive list of where I've worked and some courses I have taken, please, check out my <a href="http://www.linkedin.com/profile/view?id=267357034">LinkedIn</a></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
             </div> 
