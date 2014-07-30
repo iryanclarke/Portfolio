@@ -6,7 +6,9 @@
 
 <title>Ian Ryan Clarke</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="Ian's Portfolio" />
+	<meta name="description" content="Ian Ryan Clarke's Portfolio" />
+    <meta name="author" content="Ian Ryan Clarke">
+    <meta name="keywords" content="Web Development, Ian Ryan Clarke, Ian, Clarke, HTML, CSS, XML, XHTML, JavaScript">
     <!-- jQuery and js -->
 	<script src="js/modernizr.custom.37797.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
