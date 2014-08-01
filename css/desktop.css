@@ -9,11 +9,6 @@
 	1. CONTENT
 
 \*------------------------------*/
-/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*\
-
-    NOTE: 
-
-\*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
 /*------------------------------------*\
 
     x. SASS ELEMENTS
@@ -34,7 +29,7 @@ header .source {
   float: right; }
 
 section {
-  max-width: 68em;
+  max-width: 64em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -246,7 +241,7 @@ section {
       clear: left; }
 
 div.code {
-  max-width: 68em;
+  max-width: 64em;
   margin-left: auto;
   margin-right: auto;
   padding: 0.5em;

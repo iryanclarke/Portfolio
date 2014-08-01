@@ -2,20 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
-<meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Ian Ryan Clarke</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="Ian's Portfolio" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- jQuery and js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.queryloader2.js"></script>
-    <script src="js/include.js"></script>
-    <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
+    
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="../css/mobile.css">
-    <link rel="stylesheet" href="../css/desktop.css" media="(min-width:50em)">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
