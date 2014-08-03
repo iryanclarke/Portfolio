@@ -9,7 +9,8 @@
 	<meta name="description" content="Ian's Portfolio" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- jQuery and js -->
-    
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- Stylesheets-->
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
@@ -17,13 +18,73 @@
 </head>
 
 <body>
-    <header>
-      <div class="wrapper">
-        <h1>Bourbon Neat Examples</h1>
-        <a href="https://github.com/thoughtbot/neat/blob/gh-pages/_sass/desktop-example.scss" class="source">View desktop source</a>
-        <a href="https://github.com/thoughtbot/neat/blob/gh-pages/_sass/mobile-example.scss" class="source">View mobile source</a>
+    <header class="navigation">
+      <div class="navigation-wrapper">
+        <a href="javascript:void(0)" class="logo">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
+        </a>
+        <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+        <div class="nav">
+          <ul id="navigation-menu">
+            <li class="nav-link"><a href="javascript:void(0)">About Me</a></li>
+            <li class="nav-link"><a href="javascript:void(0)">Portfolio</a></li>
+            <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+            <li class="nav-link more"><a href="javascript:void(0)">More</a>
+              <ul class="submenu">
+                <li><a href="javascript:void(0)">Submenu Item</a></li>
+                <li><a href="javascript:void(0)">Another Item</a></li>
+                <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+                  <ul class="submenu">
+                    <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                    <li><a href="javascript:void(0)">Another Item</a></li>
+                  </ul>
+                </li>
+                <li class="more"><a href="javascript:void(0)">Another submenu</a>
+                  <ul class="submenu">
+                    <li><a href="javascript:void(0)">Sub-submenu</a></li>
+                    <li><a href="javascript:void(0)">An Item</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+
+    <section>
+    <div class="bullets">
+      <div class="bullet one-col-bullet">
+        <div class="bullet-icon bullet-icon-1">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
+    " alt="">
+        </div>
+        <div class="bullet-content">
+          <h2>This Bullet Title</h2>
+          <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+          </div>
+      </div>  
+      <div class="bullet one-col-bullet">
+        <div class="bullet-icon bullet-icon-2">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+        </div>
+        <div class="bullet-content">
+          <h2>Another Bullet Title</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
+        </div>
+      </div>
+      <div class="bullet one-col-bullet">
+        <div class="bullet-icon bullet-icon-3">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
+        </div>
+        <div class="bullet-content">
+          <h2>Last Bullet Title</h2>
+          <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+        </div>
+      </div> 
+    </div>
+    </section>
+
 
     <h3>Basic</h3>
 

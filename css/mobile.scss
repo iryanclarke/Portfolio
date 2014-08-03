@@ -12,7 +12,7 @@
 
 /*------------------------------------*\
 
-    x. SASS ELEMENTS
+    x. Mandatory Includes
 
 \*------------------------------------*/
 
@@ -30,10 +30,31 @@ $textblue: #072f44;
 @import "typography";
 @import "reset";
 
+
+/*------------------------------------*\
+
+    x. Element Sass Includes 
+
+\*------------------------------------*/
+@import "header";
+@import "bullets";
+
+
+
+/*------------------------------------*\
+
+    x. Element Sass Includes 
+
+\*------------------------------------*/
+
+
+
+
+
 body {
   color: $textblue;
   line-height: $body-line-height;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -42,41 +63,6 @@ h3 {
 
 pre {
   line-height: 1.6em;
-}
-
-header {
-  background-color: $dkerblue;
-  @include clearfix();
-  padding: 0.5em 1em;
-  text-align: center;
-
-  .wrapper {
-    @include outer-container;
-  }
-
-  h1 {
-    color: #fff;
-    font-family: "helvetica Neue", "Helvetica", sans-serif;
-    font-weight: 100;
-    line-height: $body-line-height;
-  }
-
-  .source {
-    @include inline-block;
-    background-color: white;
-    border-radius: 3px;
-    color: $dkerblue;
-    font-size: em(14);
-    font-weight: bold;
-    margin-right: .5em;
-    margin-top: .5em;
-    padding: .5em 1em;
-    text-decoration: none;
-
-    &:hover {
-      background-color: rgba(white, .7);
-    }
-  }
 }
 
 section {
