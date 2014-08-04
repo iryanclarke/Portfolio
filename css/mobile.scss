@@ -38,6 +38,7 @@ $textblue: #072f44;
 \*------------------------------------*/
 @import "header";
 @import "bullets";
+@import "footer";
 
 
 
@@ -75,6 +76,7 @@ section {
     font-size: 0.8em;
     margin-bottom: 2em;
   }
+
 
   &.first {
     div#gamma {
@@ -157,19 +159,3 @@ div.code {
   padding-bottom: 0.5em;
 }
 
-footer {
-  padding: 2em;
-  display: block;
-  clear: both;
-
-  a.back-button {
-    text-decoration: none;
-    color: white;
-    padding: 0.5em 1em;
-    background-color: $dkerblue;
-
-    &:hover {
-      background-color: $textblue;
-    }
-  }
-}

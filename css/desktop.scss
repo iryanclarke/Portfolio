@@ -47,6 +47,16 @@ section {
     padding: 1em;
   }
 
+  &.bullets {
+    div {
+      height: auto;
+      line-height: $body-line-height;
+      text-align: left;
+      padding: 1em;
+      overflow: auto;
+    }
+  }
+
   &.zero {
     div {
       @include span-columns(6);

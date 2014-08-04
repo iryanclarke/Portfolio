@@ -45,6 +45,12 @@ section {
     line-height: 1.618em;
     text-align: left;
     padding: 1em; }
+  section.bullets div {
+    height: auto;
+    line-height: 1.618em;
+    text-align: left;
+    padding: 1em;
+    overflow: auto; }
   section.zero div {
     float: left;
     display: block;
