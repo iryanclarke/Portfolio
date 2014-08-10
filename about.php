@@ -1,27 +1,54 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-<title>About Me</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<!-- jQuery and js -->
-	<script src="js/modernizr.custom.37797.js"></script> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.queryloader2.js"></script>
-    <script src="js/include.js"></script>
-    <!-- Stylesheets-->
-    
-    <link rel="stylesheet" media="all" href="css/banner.css" />
-    <link rel="stylesheet" media="all" href="css/pages.css" />
-    <link rel="shortcut icon" href="img/favicon.ico">
+<title>Ian Ryan Clarke</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Ian's Portfolio" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
+  <!-- jQuery and js -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
     <?php
-        include 'banner.php';
+        include 'navigation.php';
     ?> 
-    
+    <section class="bio">
+        <div class="comment">
+          <div class="comment-image">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
+          </div>
+          <div class="comment-content">
+            <h1>Background</h1>
+            <p>My interest and love for Web and Graphic design began way back in grade 9, when I took a tech class and began hashing out websites using good 'ol DreamWeaver's <b>design</b> view. <i>(I now shudder)</i> </p>
+            <p>I now currently attend Carleton University for the Bachelor of Information Technology, in the stream of Interactive Multimedia and Design. It is here where my love for Web Development and Illustration came to fruition. </p>
+            <p>I have worked for the Canadian Medical Protective Association where I was a Web Developer and QA analyst, and Kivuto Solutions where I was a front-end developer. I enjoy being a part of internal teams, such as the Eats and Entertainment Committee at Kivuto Solutions, where we would plan montly company events. </p>
+            <p>If you would like a comprehensive list of where I've worked and courses I have taken, please, check out my <a href="http://www.linkedin.com/profile/view?id=267357034">LinkedIn</a> profile</p>
+                    
+            <p class="comment-detail">Date or details about this post</p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-image">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
+          </div>
+          <div class="comment-content">
+            <h1>Another One</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            <p class="comment-detail">Date or details about this post</p>
+          </div>
+        </div>
+    </section>    
+
     <div class ="wrapper">
         <div class="content">
             <div class="label">

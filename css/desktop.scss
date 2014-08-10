@@ -56,6 +56,15 @@ section {
       overflow: auto;
     }
   }
+  &.bio {
+    div {
+      height: auto;
+      line-height: $body-line-height;
+      text-align: left;
+      padding: 1em;
+      overflow: auto;
+    }
+  }
 
   &.zero {
     div {

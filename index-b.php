@@ -7,14 +7,14 @@
 <title>Ian Ryan Clarke</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="Ian's Portfolio" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <!-- Stylesheets-->
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
-    <!-- jQuery and js -->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <link rel="shortcut icon" href="img/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
+  <!-- jQuery and js -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -23,36 +23,36 @@
     ?> 
 
     <section class="bullets">
-    <div class="bullets">
-      <div class="bullet three-col-bullet">
-        <div class="bullet-icon bullet-icon-1">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
-    " alt="">
-        </div>
-        <div class="bullet-content">
-          <h2>This Bullet Title</h2>
-          <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+      <div class="bullets">
+        <div class="bullet three-col-bullet">
+          <div class="bullet-icon bullet-icon-1">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
+      " alt="">
           </div>
-      </div>  
-      <div class="bullet three-col-bullet">
-        <div class="bullet-icon bullet-icon-2">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+          <div class="bullet-content">
+            <h2>This Bullet Title</h2>
+            <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+            </div>
+        </div>  
+        <div class="bullet three-col-bullet">
+          <div class="bullet-icon bullet-icon-2">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+          </div>
+          <div class="bullet-content">
+            <h2>Another Bullet Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
+          </div>
         </div>
-        <div class="bullet-content">
-          <h2>Another Bullet Title</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
-        </div>
+        <div class="bullet three-col-bullet">
+          <div class="bullet-icon bullet-icon-3">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
+          </div>
+          <div class="bullet-content">
+            <h2>Last Bullet Title</h2>
+            <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+          </div>
+        </div> 
       </div>
-      <div class="bullet three-col-bullet">
-        <div class="bullet-icon bullet-icon-3">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
-        </div>
-        <div class="bullet-content">
-          <h2>Last Bullet Title</h2>
-          <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
-        </div>
-      </div> 
-    </div>
     </section>
 
 
