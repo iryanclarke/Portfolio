@@ -8,49 +8,19 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="Ian's Portfolio" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <!-- jQuery and js -->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/main.js"></script>
     <!-- Stylesheets-->
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
+    <!-- jQuery and js -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
-    <header class="navigation">
-      <div class="navigation-wrapper">
-        <a href="javascript:void(0)" class="logo">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
-        </a>
-        <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-        <div class="nav">
-          <ul id="navigation-menu">
-            <li class="nav-link"><a href="javascript:void(0)">About Me</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">Portfolio</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
-            <li class="nav-link more"><a href="javascript:void(0)">More</a>
-              <ul class="submenu">
-                <li><a href="javascript:void(0)">Submenu Item</a></li>
-                <li><a href="javascript:void(0)">Another Item</a></li>
-                <li class="more"><a href="javascript:void(0)">Item with submenu</a>
-                  <ul class="submenu">
-                    <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
-                    <li><a href="javascript:void(0)">Another Item</a></li>
-                  </ul>
-                </li>
-                <li class="more"><a href="javascript:void(0)">Another submenu</a>
-                  <ul class="submenu">
-                    <li><a href="javascript:void(0)">Sub-submenu</a></li>
-                    <li><a href="javascript:void(0)">An Item</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+    <?php
+        include 'navigation.php';
+    ?> 
 
     <section class="bullets">
     <div class="bullets">
@@ -274,39 +244,10 @@
       </div>
     </section>
 
-    <!--<div class="wrapper-for-content-outside-of-footer">
-       Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
-      <div class="push"></div>
-    </div>-->
-
-    <footer class="footer-2">
-      <div class="footer-logo">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
-      </div>
-        <ul>
-          <li><a href="javascript:void(0)">Design and Development by Ian Ryan Clarke</a></li>
-        </ul>
-
-        <div class="footer-secondary-links">
-          <ul>
-            <li><a href="javascript:void(0)">Privacy Policy, </a></li>
-            <li><a href="javascript:void(0)">Copyright &copy; 2014 Ian Ryan Clarke</a></li>
-          </ul>
-
-          <ul class="footer-social">
-            <li><a href="javascript:void(0)">
-              <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="">
-              </a></li>
-            <li><a href="javascript:void(0)">
-              <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="">
-            </a></li>
-            <li><a href="javascript:void(0)">
-              <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="">
-            </a></li>
-          </ul>
-        </div>
-    </footer>
-
+        
+    <?php
+        include 'footer.php';
+    ?> 
 
 
   </body>    
