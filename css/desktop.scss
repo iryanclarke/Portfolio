@@ -24,6 +24,10 @@
 header {
   h1 {
     float: left;
+    padding: 5px 0px 5px 10px;
+  }
+  img{
+    float: left;
   }
 
   .source {
@@ -52,15 +56,12 @@ section {
       height: auto;
       line-height: $body-line-height;
       text-align: left;
-      padding: 1em;
       overflow: auto;
     }
   }
   &.bio {
     div {
       height: auto;
-      line-height: $body-line-height;
-      text-align: left;
       padding: 1em;
       overflow: auto;
     }

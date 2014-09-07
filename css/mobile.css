@@ -968,10 +968,10 @@ input[type="submit"] {
   .bullets .bullet-icon {
     float: left;
     background: #477dca;
-    padding: 0.875em;
+    padding: 1.125em;
     border-radius: 50%;
-    width: 3.5em;
-    height: 3.5em; }
+    width: 4.5em;
+    height: 4.5em; }
   .bullets .bullet-icon-1 {
     background: #477dca; }
   .bullets .bullet-icon-2 {
@@ -979,18 +979,19 @@ input[type="submit"] {
   .bullets .bullet-icon-3 {
     background: #a9ca47; }
   .bullets .bullet-content {
-    margin-left: 4.9em;
-    margin-bottom: 2em; }
+    margin-left: 6.3em;
+    margin-bottom: 2em;
+    padding: 0em !important; }
   .bullets h2 {
-    font-size: 1.4em;
-    padding-top: 0.5em;
-    margin-bottom: 0.58333em;
+    font-size: 1.8em;
+    padding-top: 0.64286em;
+    margin-bottom: 0.75em;
     border-bottom: 1px solid rgba(51, 51, 51, 0.2);
     display: inline-block; }
 
 .footer-2 {
   background: #40526b;
-  padding: 1.5em;
+  padding: 1.0em;
   width: 100%;
   display: inline-block; }
   .footer-2 .footer-logo {
@@ -1044,6 +1045,41 @@ input[type="submit"] {
       padding: 1px; }
       .footer-2 .footer-secondary-links ul.footer-social img:hover {
         opacity: 1; }
+
+.comment {
+  display: table;
+  width: 100%;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1); }
+  .comment .comment-image,
+  .comment .comment-content {
+    display: table-cell !important;
+    vertical-align: top; }
+  .comment .comment-image {
+    padding-right: 1.4em; }
+    .comment .comment-image > img {
+      width: 4em;
+      height: auto;
+      border-radius: 0.1875em;
+      padding: 0.7em;
+      background: #82a7db;
+      display: block;
+      max-width: none; }
+    .comment-reverse-order .comment .comment-image {
+      padding-right: 0;
+      padding-left: 10px; }
+  .comment .comment-content {
+    width: 100%; }
+    .comment .comment-content h1 {
+      font-size: 1em;
+      margin-bottom: .5em; }
+    .comment .comment-content p {
+      margin-bottom: .5em; }
+    .comment .comment-content p.comment-detail {
+      font-style: italic;
+      font-size: .9em;
+      color: rgba(51, 51, 51, 0.5); }
 
 /*------------------------------------*\
 

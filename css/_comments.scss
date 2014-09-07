@@ -15,7 +15,7 @@
 
   .comment-image,
   .comment-content {
-    display: table-cell;
+    display: table-cell !important;
     vertical-align: $comment-image-vert-alignment;
   }
 

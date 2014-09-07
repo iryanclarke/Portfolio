@@ -24,6 +24,9 @@ body {
   line-height: 1.618em; }
 
 header h1 {
+  float: left;
+  padding: 5px 0px 5px 10px; }
+header img {
   float: left; }
 header .source {
   float: right; }
@@ -49,12 +52,9 @@ section {
     height: auto;
     line-height: 1.618em;
     text-align: left;
-    padding: 1em;
     overflow: auto; }
   section.bio div {
     height: auto;
-    line-height: 1.618em;
-    text-align: left;
     padding: 1em;
     overflow: auto; }
   section.zero div {

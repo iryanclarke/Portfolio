@@ -55,22 +55,6 @@
       </div>
     </section>
 
-
-    <h3>Basic</h3>
-
-    <section class="zero">
-    <code>@include outer-container;</code>
-      <div id="alpha">
-        <code>@include span-columns(6);</code>
-      </div>
-      <div id="beta">
-        <code>@include span-columns(6);<br></code>
-      </div>
-    </section>
-
-
-    <h3>Multiple rows</h3>
-
     <section class="first">
     <code>@include outer-container;</code>
       <div id="alpha">
