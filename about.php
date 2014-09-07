@@ -57,8 +57,11 @@
       " alt="">
           </div>
           <div class="bullet-content">
-            <h2>This Bullet Title</h2>
-            <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+            <h2>Background</h2>
+            <p>My interest and love for Web and Graphic design began way back in grade 9, when I took a tech class and began hashing out websites using good 'ol DreamWeaver's <b>design</b> view. <i>(I now shudder)</i> </p>
+            <p>I now currently attend Carleton University for the Bachelor of Information Technology, in the stream of Interactive Multimedia and Design. It is here where my love for Web Development and Illustration came to fruition. </p>
+            <p>I have worked for the Canadian Medical Protective Association where I was a Web Developer and QA analyst, and Kivuto Solutions where I was a front-end developer. I enjoy being a part of internal teams, such as the Eats and Entertainment Committee at Kivuto Solutions, where we would plan montly company events. </p>
+            <p>If you would like a comprehensive list of where I've worked and some courses I have taken, please, check out my <a href="http://www.linkedin.com/profile/view?id=267357034">LinkedIn</a></p>
             </div>
         </div>  
         <div class="bullet one-col-bullet">
@@ -66,8 +69,9 @@
             <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
           </div>
           <div class="bullet-content">
-            <h2>Another Bullet Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
+            <h2>Interests</h2>
+            <p>I spend most of my spare time reading web dev blogs such as Smashing Magazine, Abduzeedo, Net tuts, and David Walsh blog, and hacking around on projects I find cool! I absolutely have a soft spot for flat design, and I sometimes mess around in illustrator with some flat designs and complementary colour schemes.</p>
+            <p>When I'm not nerding out on the computer, you can find me tinkering with my R/C helicopters, or playing Starcraft II and Age of Mythology with my friends. I also attend Web Related meetups in Ottawa, such as Ottawa Ruby, AngularJS and Ottawa JavaScript!</p>
           </div>
         </div>
         <div class="bullet one-col-bullet">
@@ -75,7 +79,7 @@
             <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
           </div>
           <div class="bullet-content">
-            <h2>Last Bullet Title</h2>
+            <h2>Languages</h2>
             <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
           </div>
         </div> 
@@ -91,29 +95,6 @@
             </div>   
        </div>  
         
-        
-        <div class="section2">
-           <div class="content">
-                <h3 class="background"><img src="img/icons/journal.png" align="middle">Background</h3>
-                <p>My interest and love for Web and Graphic design began way back in grade 9, when I took a tech class and began hashing out websites using good 'ol DreamWeaver's <b>design</b> view. <i>(I now shudder)</i> </p>
-                <p>I now currently attend Carleton University for the Bachelor of Information Technology, in the stream of Interactive Multimedia and Design. It is here where my love for Web Development and Illustration came to fruition. </p>
-                <p>I have worked for the Canadian Medical Protective Association where I was a Web Developer and QA analyst, and Kivuto Solutions where I was a front-end developer. I enjoy being a part of internal teams, such as the Eats and Entertainment Committee at Kivuto Solutions, where we would plan montly company events. </p>
-                <p>If you would like a comprehensive list of where I've worked and some courses I have taken, please, check out my <a href="http://www.linkedin.com/profile/view?id=267357034">LinkedIn</a></p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-            </div> 
-        </div>    
-
-        <div class="section1">   
-            <div class="content">
-                <h3><img src="img/icons/heart.png" align="middle">Interests</h3>
-                <p></p>
-                <p>I spend most of my spare time reading web dev blogs such as Smashing Magazine, Abduzeedo, Net tuts, and David Walsh blog, and hacking around on projects I find cool! I absolutely have a soft spot for flat design, and I sometimes mess around in illustrator with some flat designs and complementary colour schemes.</p>
-                <p>When I'm not nerding out on the computer, you can find me tinkering with my R/C helicopters, or playing Starcraft II and Age of Mythology with my friends. I also attend Web Related meetups in Ottawa, such as Ottawa Ruby, AngularJS and Ottawa JavaScript!</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-            </div>
-        </div>  
 
         <div class="section3">   
             <div class="content">
@@ -144,9 +125,9 @@
     </div>
 
 
-    <div class="footer">
-    	<p1>Design and Development by Ian Clarke &copy; 2014</p1>
-    </div>
+    <?php
+        include 'footer.php';
+    ?> 
     <script src="js/gAnalytics.js"></script>
    
 </body>

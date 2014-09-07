@@ -232,7 +232,7 @@
     <?php
         include 'footer.php';
     ?> 
-
+    <script src="js/gAnalytics.js"></script>
 
   </body>    
 </html>
