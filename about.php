@@ -20,34 +20,7 @@
 <body>
     <?php
         include 'navigation.php';
-    ?> 
-    <section class="bio">
-        <div class="comment">
-          <div class="comment-image">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
-          </div>
-          <div class="comment-content">
-            <h1>Background</h1>
-            <p>My interest and love for Web and Graphic design began way back in grade 9, when I took a tech class and began hashing out websites using good 'ol DreamWeaver's <b>design</b> view. <i>(I now shudder)</i> </p>
-            <p>I now currently attend Carleton University for the Bachelor of Information Technology, in the stream of Interactive Multimedia and Design. It is here where my love for Web Development and Illustration came to fruition. </p>
-            <p>I have worked for the Canadian Medical Protective Association where I was a Web Developer and QA analyst, and Kivuto Solutions where I was a front-end developer. I enjoy being a part of internal teams, such as the Eats and Entertainment Committee at Kivuto Solutions, where we would plan montly company events. </p>
-            <p>If you would like a comprehensive list of where I've worked and courses I have taken, please, check out my <a href="http://www.linkedin.com/profile/view?id=267357034">LinkedIn</a> profile</p>
-                    
-            <p class="comment-detail">Date or details about this post</p>
-          </div>
-        </div>
-
-        <div class="comment">
-          <div class="comment-image">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
-          </div>
-          <div class="comment-content">
-            <h1>Another One</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
-            <p class="comment-detail">Date or details about this post</p>
-          </div>
-        </div>
-    </section>    
+    ?>  
 
     <section class="bullets">
       <div class="bullets">
@@ -79,27 +52,8 @@
             <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
           </div>
           <div class="bullet-content">
-            <h2>Languages</h2>
-            <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
-          </div>
-        </div> 
-      </div>
-    </section>
-
-    <div class ="wrapper">
-        <div class="content">
-            <div class="label">
-                  <h2><span style="background-color:#006ba4;padding:10px">About me</span></h2>
-                  <p>&nbsp;</p>
-                  <div style="clear:both"></div>
-            </div>   
-       </div>  
-        
-
-        <div class="section3">   
-            <div class="content">
-            	<h3><img src="img/icons/heart.png" align="middle">Skills and Tools</h3>
-                <p>I have acquired a long list of programs and languages I am familiar with over the years, so i'll break it down into ones that I use very often!</p>
+            <h2>Languages and Programs</h2>
+            <p>I have acquired a long list of programs and languages I am familiar with over the years, so i'll break it down into ones that I use very often!</p>
                 <ul>
                     <li>Sublime text 2: For ALL my coding needs!</li>
                     <li>Koala: A preprocessor for stuff like SASS, LESS, and CoffeeScript</li>
@@ -117,10 +71,12 @@
                     <li>C, C++, Actionscript 3.0</li>
                     <li>Microsoft Visual Studio, Autodesk Maya, Eclipse</li>
                 </ul>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-            </div>
-        </div>   
+          </div>
+        </div>
+      </div>
+    </section>
+
+       
    
     </div>
 

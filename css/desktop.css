@@ -23,6 +23,11 @@ body {
   font: 1em "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.618em; }
 
+/* Typography */
+p {
+  font-size: 15px;
+  line-height: 1.5; }
+
 header h1 {
   float: left;
   padding: 5px 0px 5px 10px; }
