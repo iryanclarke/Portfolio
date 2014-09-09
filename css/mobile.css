@@ -988,6 +988,11 @@ input[type="submit"] {
     margin-bottom: 0.91667em;
     border-bottom: 1px solid rgba(51, 51, 51, 0.2);
     display: inline-block; }
+  .bullets ul, .bullets ol {
+    padding-left: 5px;
+    padding-bottom: 10px; }
+    .bullets ul li, .bullets ol li {
+      list-style-type: square; }
 
 .footer-2 {
   background: #40526b;

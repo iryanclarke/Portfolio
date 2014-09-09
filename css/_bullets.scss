@@ -73,4 +73,13 @@
     border-bottom: 1px solid transparentize($base-font-color, .8);
     display: inline-block;
   }
+  ul, ol {
+    padding-left: 5px;
+    padding-bottom: 10px;
+    li{
+      list-style-type: square;
+    }
+    
+  }
+
 }
