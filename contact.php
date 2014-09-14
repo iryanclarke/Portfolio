@@ -26,86 +26,49 @@
     <section class="bullets">
       <div class="bullets">
         <div class="bullet one-col-bullet">
-          <div class="bullet-icon bullet-icon-1">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
-      " alt="">
-          </div>
           <div class="bullet-content">
             <h2>Background</h2>
-            <ul>
-                <a href="mailto:ian@iryanclarke.com">
-                    <li>
-                      <i class="fa fa-camera-retro">ian@iryanclarke.com
-                    </li>
-                </a>
-                <a href="http://www.linkedin.com/profile/view?id=267357034">
-                    <li>
-                      <i class="fa fa-linkedin">LinkedIn
-                    </li>
-                </a>
-                <a href="https://twitter.com/tridotdesigns">
-                    <li>
-                      <i class="fa fa-twitter">Twitter
-                    </li>
-                </a>
-                <a href="https://github.com/iryanclarke">
-                    <li>
-                      <i class="fa fa-github">GitHub
-                    </li>
-                </a>
-                <a href="http://stackoverflow.com/users/2884677/ryan-clarke">
-                    <li>
-                      <i class="fa fa-stack-overflow">StackOverflow
-                    </li>
-                </a>
-            </ul>
+                <p>
+                  <i class="fa fa-camera-retro"></i>
+                  <a href="mailto:ian@iryanclarke.com">
+                    ian@iryanclarke.com
+                  </a>
+                </p>
+              
+                <p>
+                  <i class="fa fa-linkedin"></i>
+                  <a href="http://www.linkedin.com/profile/view?id=267357034">
+                  LinkedIn
+                  </a>
+                </p>
+              
+                <p>
+                  <i class="fa fa-twitter"></i>
+                  <a href="https://twitter.com/tridotdesigns">
+                    Twitter
+                  </a>
+                </p>
+              
+                <p>
+                  <i class="fa fa-github"></i>
+                  <a href="https://github.com/iryanclarke">
+                    GitHub
+                  </a>
+                </p>
+              </a>
+              
+                <p>
+                  <i class="fa fa-stack-overflow"></i>
+                  <a href="http://stackoverflow.com/users/2884677/ryan-clarke">
+                    StackOverflow
+                  </a>
+                </p>
           </div>
         </div>  
-        <div class="bullet one-col-bullet">
-          <div class="bullet-icon bullet-icon-2">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
-          </div>
-          <div class="bullet-content">
-            <h2>Interests</h2>
-          </div>
-        </div>
-        <div class="bullet one-col-bullet">
-          <div class="bullet-icon bullet-icon-3">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
-          </div>
-          <div class="bullet-content">
-            <h2>Languages and Programs</h2>
-          </div>
-        </div>
       </div>
     </section>
    
 
-       
-        <div class="section1">
-           <div class="content" style="display:block;overflow:auto;">
-           		<h3>Find me on:</h3>
-                <ul class='icoList'>
-                	<a href="mailto:ian@iryanclarke.com">
-                    <li><i class="fa fa-camera-retro"></i>ian@iryanclarke.com</li>
-                  </a>
-                  <a href="http://www.linkedin.com/profile/view?id=267357034">
-                    <li><i class="fa fa-linkedin">LinkedIn</li>
-                  </a>
-                  <a href="https://twitter.com/tridotdesigns">
-                    <li><i class="fa fa-twitter">Twitter</li>
-                  </a>
-                  <a href="https://github.com/iryanclarke">
-                    <li><i class="fa fa-github">GitHub</li>
-                  </a>
-                  <a href="http://stackoverflow.com/users/2884677/ryan-clarke">
-                    <li><i class="fa fa-stack-overflow">StackOverflow</li>
-                  </a>
-                </ul>
-
-            </div> 
-        </div>    
-    </div>
     
     <script src="js/gAnalytics.js"></script>
          
