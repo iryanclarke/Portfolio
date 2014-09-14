@@ -11,6 +11,7 @@
   <!-- Stylesheets-->
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
+  <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
   <!-- jQuery and js -->
   <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/main.js"></script>
