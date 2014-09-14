@@ -156,44 +156,42 @@ section {
       margin-right: 0; }
   section.first div#beta, section.first div#delta, section.first div#zeta, section.first div#theta, section.first div#kappa, section.first div#mu {
     margin-right: 0; }
-  section.second div {
-    height: 20em; }
-    section.second div#alpha {
+  section.second div#alpha {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    section.second div#alpha:last-child {
+      margin-right: 0; }
+  section.second div#beta {
+    padding: 0;
+    line-height: 3.236em;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    section.second div#beta:last-child {
+      margin-right: 0; }
+    section.second div#beta aside {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      section.second div#alpha:last-child {
+      margin-right: 3.57866%;
+      width: 48.21067%;
+      border: none;
+      height: 84%;
+      padding: 1em; }
+      section.second div#beta aside:last-child {
         margin-right: 0; }
-    section.second div#beta {
-      padding: 0;
-      line-height: 3.236em;
-      text-align: center;
+    section.second div#beta article {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%; }
-      section.second div#beta:last-child {
+      margin-right: 3.57866%;
+      width: 48.21067%;
+      height: 84%;
+      padding: 1em; }
+      section.second div#beta article:last-child {
         margin-right: 0; }
-      section.second div#beta aside {
-        float: left;
-        display: block;
-        margin-right: 3.57866%;
-        width: 48.21067%;
-        border: none;
-        height: 84%;
-        padding: 1em; }
-        section.second div#beta aside:last-child {
-          margin-right: 0; }
-      section.second div#beta article {
-        float: left;
-        display: block;
-        margin-right: 3.57866%;
-        width: 48.21067%;
-        height: 84%;
-        padding: 1em; }
-        section.second div#beta article:last-child {
-          margin-right: 0; }
   section.third div#dummy {
     border-bottom: 0;
     height: 5.5em;

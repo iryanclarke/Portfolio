@@ -57,70 +57,32 @@
     </section>
 
     <section class="first">
-    <code>@include outer-container;</code>
-      <div id="alpha">
-        <code>(1)</code>
-      </div>
-      <div id="beta">
-        <code>@include span-columns(11);<br>
-        @include omega();</code>
-      </div>
-        <div id="gamma">
-        <code>@include span-columns(2);</code>
-      </div>
-      <div id="delta">
-        <code>@include span-columns(10);<br>
-        @include omega();</code>
-      </div>
-      <div id="epsilon">
-        <code>@include span-columns(3);</code>
-      </div>
-      <div id="zeta">
-        <code>@include span-columns(9);<br>
-        @include omega();</code>
-      </div>
-      <div id="eta">
-        <code>@include span-columns(4);</code>
-      </div>
-      <div id="theta">
-        <code>@include span-columns(8);<br>
-        @include omega();</code>
-      </div>
-      <div id="iota">
-        <code>@include span-columns(5);</code>
-      </div>
-      <div id="kappa">
-        <code>@include span-columns(7);<br>
-        @include omega();</code>
-      </div>
-      <div id="lambda">
-        <code>@include span-columns(6);</code>
-      </div>
-      <div id="mu">
-        <code>@include span-columns(6);<br>
-        @include omega();</code>
-      </div>
+        <div class="intro-text">
+            <h3>Topic Label</h3>
+            <h2>Intro Text Heading</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta rerum libero iste saepe.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur consectetur adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo. Amet, consectetur adipisicing. <a href="">Read more <span>&#187;</span></a></p>
+        </div>
     </section>
 
-    <h3>Nesting columns</h3>
 
     <section class="second">
     <code>@include outer-container;</code>
-       <div id="alpha">
-        <code>@include span-columns(4);</code>
+      <div class="progress-bar">
+        <span class="meter" style="width: 60%"></span>
       </div>
-      <div id="beta">
-        <code class="block">@include span-columns(8);</code>
-        <aside>
-          <code>@include span-columns(4 of 8);</code>
-        </aside>
-        <article>
-          <code>@include span-columns(4 of 8);</code>
-        </article>
+      <div class="progress-bar-indication">
+        <span class="meter" style="width: 60%">
+          <p>60%</p>
+        </span>
+      </div>
+      <div class="progress-bar-indication">
+        <span class="meter" style="width: 95%">
+          <p>95%</p>
+        </span>
       </div>
     </section>
 
-    <h3>Table grid</h3>
 
     <section class="third">
       <code>@include outer-container;</code>
@@ -143,7 +105,6 @@
       </div>
     </section>
 
-    <h3>Shifting columns</h3>
 
     <section class="fourth">
       <code>@include outer-container;</code>
@@ -201,7 +162,6 @@
       </div>
     </section>
 
-    <h3>Media Queries</h3>
 
     <section class="sixth">
     <pre>

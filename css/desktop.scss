@@ -139,8 +139,7 @@ section {
   }
 
   &.second {
-    div {
-      height: 20em;
+    div { 
 
       &#alpha {
         @include span-columns(4);
