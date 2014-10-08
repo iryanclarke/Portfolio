@@ -23,6 +23,14 @@
         include 'navigation.php';
     ?> 
 
+    <section class="first">
+        <div class="intro-text">
+            <h2>Hey, I'm Ian!</h2>
+            <h4>Welcome to my website</h4>
+            <p>Take a look around, check out my portfolio and what I'm all about, <br/>or you can <a href="contact.php">Drop me a line<span>&#187;</span></a></p>
+        </div>
+    </section>
+
     <section class="bullets">
       <div class="bullets">
         <div class="bullet three-col-bullet">
@@ -54,15 +62,6 @@
           </div>
         </div> 
       </div>
-    </section>
-
-    <section class="first">
-        <div class="intro-text">
-            <h3>Topic Label</h3>
-            <h2>Intro Text Heading</h2>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta rerum libero iste saepe.</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur consectetur adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo adipisicing elit. Perferendis para mitis eun non ullam atque debitis, illo. Amet, consectetur adipisicing. <a href="">Read more <span>&#187;</span></a></p>
-        </div>
     </section>
 
 
