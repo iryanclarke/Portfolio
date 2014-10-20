@@ -33,10 +33,12 @@ $visual-grid-opacity: 0.4;
 \*------------------------------------*/
 @import "header";
 @import "bullets";
+@import "cards";
 @import "footer";
 @import "comments";
 @import "intro";
 @import "progress";
+
 
 
 /*------------------------------------*\
@@ -45,13 +47,8 @@ $visual-grid-opacity: 0.4;
 
 \*------------------------------------*/
 
-
-
-
-
 body {
   color: $textblue;
-  line-height: $body-line-height;
   text-align: left;
 }
 
@@ -64,95 +61,20 @@ pre {
 }
 
 section {
-  background-color: $ltblue;
+  background-color: $midblue;
   text-align: center;
-  line-height: $body-line-height*1.5;
-
+  padding: 1em;
   div {
-    background-color: $midblue;
-    font-size: 0.8em;
-    margin-bottom: 2em;
+    
+    padding-bottom: 2em;
   }
-
-
-  &.first {
-    div#gamma {
-      aside, article {
-        background-color: #FFF;
-      }
-    }
-  }
-
-  &.second {
-    div#beta {
-      aside, article {
-        background-color: $dkblue;
-      }
-
-      aside {
-        border-bottom: 1px solid $dkerblue;
-      }
-    }
-  }
-
-  &.third {
-     div#dummy {
-      background-color: $midblue;
-      margin-bottom: 0;
-    }
-
-    div#alpha {
-      aside {
-        background-color: $dkblue;
-        border-bottom: 1px solid $dkerblue;
-      }
-
-      article {
-        background-color: $dkblue;
-      }
-    }
-  }
-
-  &.sixth {
-
-    > pre {
-      padding: 10px 0;
-    }
-
-    @include media($mobile) {
-      font-size: 0.9em;
-      line-height: 1.5em;
-    }
-
+  &.cards {
     div {
-      line-height: 2em;
-      min-height: 20em;
-      text-align: left;
-      padding: 1em;
+      height: auto;
+      padding: 0em;
+      overflow: auto;
     }
-
-    div#alpha {
-      @include span-columns(4);
-
-      @include media($mobile) {
-        @include span-columns(3);
-      }
-    }
-
-    div#beta {
-      @include span-columns(8);
-
-      @include media($mobile) {
-        @include span-columns(3);
-      }
-    }
-  }
+  } 
 }
 
-div.code {
-  background-color: $ltblue;
-  text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
 

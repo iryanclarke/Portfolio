@@ -65,130 +65,68 @@
     </section>
 
 
-    <section class="second">
-    <code>@include outer-container;</code>
-      <div class="progress-bar">
-        <span class="meter" style="width: 60%"></span>
-      </div>
-      <div class="progress-bar-indication">
-        <span class="meter" style="width: 60%">
-          <p>60%</p>
-        </span>
-      </div>
-      <div class="progress-bar-indication">
-        <span class="meter" style="width: 95%">
-          <p>95%</p>
-        </span>
-      </div>
-    </section>
-
-
-    <section class="third">
-      <code>@include outer-container;</code>
-      <div id="dummy">
-        <code>@include span-columns(12);<br>
-          @include row(table);</code>
-      </div>
-      <div id="alpha">
-         <aside>
-         <code>@include span-columns(4);<br>
-         @include pad();</code>
-        </aside>
-        <article>
-        <code>
-          @include span-columns(8);<br>
-          @include reset-display;<br>
-          @include pad(); <br>
-        </code>
-        </article>
-      </div>
-    </section>
-
-
-    <section class="fourth">
-      <code>@include outer-container;</code>
-      <div id="alpha">
-        <code>@include span-columns(6);<br>
-          @include shift(3);</code>
-      </div>
-    </section>
-
-    <h3>Automatic rows</h3>
-    <div class="code">
-      <code>@include outer-container;</code>
-    </div>
-
-    <section class="fifth">
-      <div class="box">
-        <pre>
-    li.block {
-      @include span-columns(3);
-      @include omega(4n);
-    }</pre>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-        <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-        <div class="box">
-         <code>li.block</code>
-      </div>
-    </section>
-
-
-    <section class="sixth">
-    <pre>
-    @include outer-container;
-    $mobile: new-breakpoint(max-width 500px 4);
-    </pre>
-      <div id="alpha">
-    <pre>
-    @include span-columns(4);
-
-    @include media($mobile) {
-      @include span-columns(3);
-    }
-    </pre>
-
-      </div>
-      <div id="beta">
-    <pre>
-    @include span-columns(8);
-
-    @include media($mobile) {
-      @include span-columns(3);
-    }
-    </pre>
-      </div>
-    </section>
-
+    <section class="cards">
+      <div class="cards">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt="">
+          </div>
+          <div class="card-header">
+            First Card
+          </div>
+          <div class="card-copy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+          </div>
+          <div class="card-stats">
+            <ul>
+              <li>98<span>Items</span></li>
+              <li>298<span>Things</span></li>
+              <li>923<span>Objects</span></li>
+            </ul>
+          </div>
+        </div>
         
+        <div class="card">
+          <div class="ribbon-wrapper"><div class="ribbon">RIBBON</div></div>
+          <div class="card-image">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt="">
+          </div>
+          <div class="card-header">
+            Another Card
+          </div>
+          <div class="card-copy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+          </div>
+          <div class="card-stats">
+            <ul>
+              <li>98<span>Items</span></li>
+              <li>298<span>Things</span></li>
+              <li>923<span>Objects</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+          </div>
+          <div class="card-header">
+            The Last Card
+          </div>
+          <div class="card-copy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+          </div>
+          <div class="card-stats">
+            <ul>
+              <li>98<span>Items</span></li>
+              <li>298<span>Things</span></li>
+              <li>923<span>Objects</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <?php
         include 'footer.php';
     ?> 

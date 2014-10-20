@@ -40,6 +40,11 @@ header.navigation {
       max-height: $navigation-height;
       padding: .8em 0;
     }
+    h1 {
+      @include media ($horizontal-bar-mode) {
+        display: none;
+      }
+    }
   }
 
   // Mobile view

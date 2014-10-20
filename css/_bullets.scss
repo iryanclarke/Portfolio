@@ -3,10 +3,11 @@
 
 
 .bullets {
-  $icon-bullet-size: 5.5em;
+  $icon-bullet-size: 3.0em;
 
   overflow: auto;
-  margin-bottom: $base-line-height;
+  padding-bottom: $base-line-height;
+  text-align: left;
 
   // change ".three-col-bullet" class to this for two bullet layout
   .one-col-bullet {
