@@ -17,6 +17,7 @@
 
   @include transition (all 0.2s ease-in-out);
   background-color: $card-background;
+  border-radius: $base-border-radius;
   border: $card-border;
   margin-bottom: $base-line-height;
   cursor: pointer;
@@ -36,6 +37,8 @@
       width: 100%;
       @include transition (all 0.2s ease-in-out);
       background: $card-image-background;
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
     }
   }
 

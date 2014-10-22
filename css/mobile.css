@@ -1232,6 +1232,7 @@ tr, td, th {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   background-color: #f7f7f7;
+  border-radius: 0.1875em;
   border: 1px solid #dddddd;
   margin-bottom: 1.5em;
   cursor: pointer;
@@ -1257,7 +1258,9 @@ tr, td, th {
       -webkit-transition: all 0.2s ease-in-out;
       -moz-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      background: #dbd199; }
+      background: #dbd199;
+      border-top-left-radius: 0.1875em;
+      border-top-right-radius: 0.1875em; }
   .card .ribbon-wrapper {
     height: 85px;
     width: 85px;
@@ -1577,5 +1580,5 @@ section {
     padding-bottom: 2em; }
   section.cards div {
     height: auto;
-    padding: 0em;
+    padding: 15em;
     overflow: auto; }
