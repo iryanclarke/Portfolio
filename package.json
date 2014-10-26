@@ -1,0 +1,24 @@
+{
+  "name": "ians-portfolio",
+  "version": "0.2.0",
+  "description": "Ians Portfolio Redesign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iryanclarke/Portfolio.git"
+  },
+  "author": "Ian Ryan Clarke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iryanclarke/Portfolio/issues"
+  },
+  "homepage": "https://github.com/iryanclarke/Portfolio",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
