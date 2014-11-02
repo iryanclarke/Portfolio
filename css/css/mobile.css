@@ -1237,7 +1237,7 @@ tr, td, th {
   transition: all 0.2s ease-in-out;
   background-color: #f7f7f7;
   border-radius: 0.1875em;
-  border: 0px solid #dddddd;
+  border: 1px solid #dddddd;
   margin-bottom: 1.5em;
   cursor: pointer;
   box-shadow: 0 2px 4px #e6e6e6;
@@ -1294,7 +1294,7 @@ tr, td, th {
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     background-color: #f7f7f7;
-    border-bottom: 0px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
     border-radius: 0.1875em 0.1875em 0 0;
     font-weight: bold;
     padding: 0.5em 0.809em; }
@@ -1584,5 +1584,5 @@ section {
     padding-bottom: 2em; }
   section.cards div {
     height: auto;
-    padding: 15em;
+    text-align: left;
     overflow: auto; }

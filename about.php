@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
   <!-- jQuery and js -->
   <script src="js/jquery-1.9.1.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/include.js"></script>
   <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 

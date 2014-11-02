@@ -16,3 +16,4 @@
     </div>
   </div>
 </header>
+<div class="wrapper-for-content-outside-of-footer">

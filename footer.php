@@ -1,7 +1,6 @@
-<!--<div class="wrapper-for-content-outside-of-footer">
-       Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+
       <div class="push"></div>
-    </div>-->
+    
 
 <footer class="footer-2">
       <div class="footer-logo">
@@ -27,3 +26,4 @@
           </ul>
         </div>
 </footer>
+</div>
