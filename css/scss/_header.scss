@@ -41,8 +41,9 @@ header.navigation {
       padding: .8em 0;
     }
     h1 {
+      display: none;
       @include media ($horizontal-bar-mode) {
-        display: none;
+        display: block;
       }
     }
   }

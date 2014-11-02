@@ -10,11 +10,7 @@
         <li class="nav-link"><a href="about.php">About Me</a></li>
         <li class="nav-link"><a href="portfolio.php">Portfolio</a></li>
         <li class="nav-link"><a href="contact.php">Contact</a></li>
-        <li class="nav-link more"><a href="javascript:void(0)">More</a>
-          <ul class="submenu">
-            <li><a href="javascript:void(0)">Submenu Item</a></li>
-            <li><a href="javascript:void(0)">Another Item</a></li>
-          </ul>
+        <li class="nav-link"><a href="contact.php">Blog</a></li>
         </li>
       </ul>
     </div>

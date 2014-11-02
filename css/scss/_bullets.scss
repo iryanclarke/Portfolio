@@ -43,10 +43,13 @@
   .bullet-icon {
     float: left;
     background: $base-accent-color;
-    padding: $icon-bullet-size /4;
+    padding: $icon-bullet-size /5;
     border-radius: 50%;
     width: $icon-bullet-size;
     height: $icon-bullet-size;
+    .fa-2x {
+      font-size: 1.7em !important;
+    }
   }
 
   .bullet-icon-1 {

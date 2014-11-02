@@ -9,8 +9,8 @@
     <meta name="description" content="Ian's Portfolio" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!-- Stylesheets-->
-  <link rel="stylesheet" href="css/mobile.css">
-  <link rel="stylesheet" href="css/desktop.css" media="(min-width:50em)">
+  <link rel="stylesheet" href="css/css/mobile.css">
+  <link rel="stylesheet" href="css/css/desktop.css" media="(min-width:50em)">
   <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
   <!-- jQuery and js -->
   <script src="js/jquery-1.9.1.min.js"></script>
@@ -27,8 +27,7 @@
       <div class="bullets">
         <div class="bullet one-col-bullet">
           <div class="bullet-icon bullet-icon-1">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
-      " alt="">
+            <i class="fa fa-university fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
             <h2>Background</h2>
@@ -40,7 +39,7 @@
         </div>  
         <div class="bullet one-col-bullet">
           <div class="bullet-icon bullet-icon-2">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+            <i class="fa fa-paint-brush fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
             <h2>Interests</h2>
@@ -50,7 +49,7 @@
         </div>
         <div class="bullet one-col-bullet">
           <div class="bullet-icon bullet-icon-3">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
+            <i class="fa fa-book fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
             <h2>Languages and Programs</h2>
