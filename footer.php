@@ -7,7 +7,7 @@
         <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
       </div>
         <ul>
-          <li><a href="javascript:void(0)">Design and Development by Ian Ryan Clarke</a></li>
+          <li><a href="about.php">Design and Development by Ian Ryan Clarke</a></li>
         </ul>
 
         <div class="footer-secondary-links">
@@ -17,10 +17,10 @@
           </ul>
 
           <ul class="footer-social">
-            <li><a href="javascript:void(0)">
+            <li><a href="https://twitter.com/tridotdesigns">
               <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="">
               </a></li>
-            <li><a href="javascript:void(0)">
+            <li><a href="https://twitter.com/tridotdesigns">
               <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="">
             </a></li>
           </ul>

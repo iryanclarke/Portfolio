@@ -38,6 +38,7 @@ $visual-grid-opacity: 0.4;
 @import "comments";
 @import "intro";
 @import "progress";
+@import "side-image";
 
 
 
@@ -63,7 +64,7 @@ pre {
 section {
   background-color: $midblue;
   text-align: center;
-  padding: 1em;
+  padding: 1.2em;
   div {
     
     padding-bottom: 2em;

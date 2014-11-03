@@ -1,6 +1,6 @@
 <header class="navigation">
   <div class="navigation-wrapper">
-    <a href="index-b.php" class="logo">
+    <a href="index.php" class="logo">
       <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
       <h1>IAN RYAN CLARKE</h1>
     </a>

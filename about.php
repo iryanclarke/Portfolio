@@ -22,6 +22,17 @@
     <?php
         include 'navigation.php';
     ?>  
+    <section>
+      <div class="side-image">
+        <div class="images-wrapper"></div>
+          <div class="content">
+          <h1>Hi, I'm Ian Ryan Clarke</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda nihil suscipit obcaecati sit, cum quod corporis adipisci ipsam, fugiat, quae error. Eaque commodi, dicta quidem explicabo mollitia inventore quibusdam.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda nihil suscipit obcaecati sit, cum quod corporis adipisci ipsam, fugiat, quae error. Eaque commodi, dicta quidem explicabo mollitia inventore quibusdam.</p>
+          <button>Read more</button>
+        </div>
+      </div>
+    </section>
 
     <section class="bullets">
       <div class="bullets">
