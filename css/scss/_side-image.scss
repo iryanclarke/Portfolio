@@ -60,7 +60,7 @@ $side-image-border: 1px solid darken(transparentize($side-image-background-botto
   }
 
   .content button {
-    @include button(simple, white);
+    @include button(simple, #FFF);
     font-size: $base-font-size;
     outline: none;
   }
