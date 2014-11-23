@@ -29,7 +29,7 @@ p, li {
   line-height: 1.5; }
 
 body {
-  background-color: #d5eefb; }
+  background-color: #D5EEFB; }
 
 header h1 {
   float: left;
@@ -70,3 +70,5 @@ section {
       height: auto;
       padding: 0em;
       overflow: auto; }
+
+/*# sourceMappingURL=desktop.css.map */

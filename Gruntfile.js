@@ -31,7 +31,7 @@ module.exports = function (grunt) {
         },
         options: {
           watchTask: true,
-          proxy: "localhost"
+          proxy: "iryanclarke.local"
         }
       }
     }
