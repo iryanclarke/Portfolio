@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Ian Ryan Clarke</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="Ian's Portfolio" />
+  <meta charset="utf-8" />
+  <meta name="description" content="Ian's Portfolio" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!-- Stylesheets-->
   <link rel="stylesheet" href="css/css/mobile.css">
