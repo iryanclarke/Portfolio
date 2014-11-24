@@ -40,14 +40,15 @@ header .source {
   float: right; }
 
 section {
-  max-width: 64em;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center; }
-  section:after {
-    content: "";
-    display: table;
-    clear: both; }
+  section div {
+    max-width: 64em;
+    margin-left: auto;
+    margin-right: auto; }
+    section div:after {
+      content: "";
+      display: table;
+      clear: both; }
   section > code, section code.block {
     display: block; }
   section div {
@@ -59,7 +60,7 @@ section {
     height: auto;
     line-height: 1.618em;
     text-align: left;
-    overflow: auto; }
+    overflow: hidden; }
   section.bio div {
     height: auto;
     padding: 1em;
@@ -69,6 +70,6 @@ section {
     section.cards div {
       height: auto;
       padding: 0em;
-      overflow: auto; }
+      overflow: hidden; }
 
 /*# sourceMappingURL=desktop.css.map */

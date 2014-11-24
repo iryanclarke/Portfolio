@@ -1,36 +1,63 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-<title>Portfolio</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-
-    <!-- jQuery and js -->
-	<script src="js/modernizr.custom.37797.js"></script> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.queryloader2.js"></script>
-    <script src="js/iGrid.js"></script>
-    <script src="js/include.js"></script>
-    <!-- Stylesheets-->
-    <link rel="stylesheet" media="all" href="css/banner.css" />
-    <link rel="stylesheet" media="all" href="css/pages.css" />
-    <link rel="shortcut icon" href="img/favicon.ico">
+<title>Ian Ryan Clarke</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Ian's Portfolio" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="css/css/mobile.css">
+  <link rel="stylesheet" href="css/css/desktop.css" media="(min-width:50em)">
+  <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
+  <!-- jQuery and js -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/include.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
 
     <?php
-        include 'banner.php';
-    ?> 
+        include 'navigation.php';
+    ?>  
    
-       <div class="content">
-                <div class="label">
-                      <h2><span style="background-color:#006ba4;padding:10px">Portfolio</span></h2>
-                      <p>&nbsp;</p>
-                      <div style="clear:both"></div>
-                </div>   
-       </div>         
+    <section>
+      <div class="flex-boxes">
+        <a href="javascript:void(0)" class="flex-box flex-box-big">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <h1 class="flex-title">MiniTab landing page</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nostrum, libero! Laborum distinctio necessitatibus voluptates eaque officiis, unde illo, earum voluptatum rerum, reiciendis ipsa ex dolorem a dicta, maxime aliquam.</p>
+        </a>
+        <a href="javascript:void(0)" class="flex-box">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
+          <h1 class="flex-title">Flex Box Item</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae fugiat tenetur fugit atque dignissimos, fugiat natus vitae.</p>
+        </a>
+        <a href="javascript:void(0)" class="flex-box">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+          <h1 class="flex-title">MiniTab landing page</h1>
+          <p>Lorem adipisicing elit. Voluptas consectetur tempora quis nam, officia tenetur blanditiis in illo dolor?</p>
+        </a>
+        <a href="javascript:void(0)" class="flex-box flex-box-big">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <h1 class="flex-title">Student Advantage landing page</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis ipsum, officia, aperiam tenetur dolor molestiae voluptate perferendis dolorem vel ex, unde fugit blanditiis sapiente.</p>
+        </a>
+        <a href="javascript:void(0)" class="flex-box">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <h1 class="flex-title">Flex Box Item</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo obcaecati in provident illo.</p>
+        </a>
+        <a href="javascript:void(0)" class="flex-box">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+          <h1 class="flex-title">Last Flex Box Item</h1>
+          <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+        </a>
+      </div>
+    </section>       
        
         <div class="section5">  
             <div class="content minitab-lp hide">

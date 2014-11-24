@@ -18,9 +18,6 @@
 
 @import "bourbon/bourbon";
 @import "variables";
-$visual-grid: true;
-$visual-grid-color: #E6F6FF;
-$visual-grid-opacity: 0.4;
 @import "neat/neat";
 @import "typography";
 @import "reset";
@@ -39,12 +36,13 @@ $visual-grid-opacity: 0.4;
 @import "intro";
 @import "progress";
 @import "side-image";
+@import "flex-box";
 
 
 
 /*------------------------------------*\
 
-    x. Element Sass Includes 
+    x. Mobile styling 
 
 \*------------------------------------*/
 
@@ -62,7 +60,6 @@ pre {
 }
 
 section {
-  background-color: $midblue;
   text-align: center;
   padding: 1.2em;
   div {
@@ -70,6 +67,9 @@ section {
     padding-bottom: 2em;
   }
 
+  &:nth-child(even){
+    background-color: $midblue;
+  }
   &.cards {
     div {
       height: auto;
@@ -78,5 +78,3 @@ section {
     }
   } 
 }
-
-

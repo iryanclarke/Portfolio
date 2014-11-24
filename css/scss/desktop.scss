@@ -47,7 +47,9 @@ header {
 }
 
 section {
-  @include outer-container;
+  div {
+    @include outer-container;
+  }
   text-align: center;
 
   & > code, code.block {
@@ -66,7 +68,7 @@ section {
       height: auto;
       line-height: $body-line-height;
       text-align: left;
-      overflow: auto;
+      overflow: hidden;
     }
   }
   &.bio {
@@ -81,7 +83,7 @@ section {
     div {
       height: auto;
       padding: 0em;
-      overflow: auto;
+      overflow: hidden;
     }
   } 
 }
