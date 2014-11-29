@@ -27,7 +27,7 @@
         <div class="intro-text">
             <h2>Hey, I'm Ian!</h2>
             <h4>Welcome to my website</h4>
-            <p>Take a look around, check out my portfolio and what I'm all about, <br/>or you can <a href="contact.php">Drop me a line<span>&#187;</span></a></p>
+            <p>Take a look around, check out my portfolio and what I'm all about, <br/>or you can <a href="contact.php">Check out my blog<span>&#187;</span></a></p>
         </div>
     </section>
 
