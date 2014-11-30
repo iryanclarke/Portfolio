@@ -35,7 +35,7 @@
     </section>
 
     <section class="bullets">
-      <div class="bullets">
+      <div id="js-fadeInElement" class="bullets">
         <div class="bullet one-col-bullet">
           <div class="bullet-icon bullet-icon-1">
             <i class="fa fa-university fa-2x fa-inverse"></i>

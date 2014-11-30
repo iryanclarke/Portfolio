@@ -65,7 +65,7 @@
     </section>
 
 
-    <section class="cards">
+    <section id="js-fadeInElement"  class="cards">
       <div class="cards">
         <div class="card">
           <div class="card-image">

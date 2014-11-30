@@ -59,10 +59,5 @@ $side-image-border: 1px solid darken(transparentize($side-image-background-botto
     margin-bottom: 3em;
   }
 
-  .content button {
-    @include button(simple, #FFF);
-    font-size: $base-font-size;
-    outline: none;
-  }
   @include reset-display();
 }

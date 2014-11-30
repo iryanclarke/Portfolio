@@ -4,7 +4,7 @@
 <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Ian Ryan Clarke</title>
+<title>Portfolio - Ian Ryan Clarke</title>
   <meta charset="utf-8" />
   <meta name="description" content="Ian's Portfolio" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -29,7 +29,7 @@
         <a href="javascript:void(0)" class="flex-box flex-box-big">
           <i class="fa fa-3x fa-dashboard"></i>
           <h1 class="flex-title">MiniTab landing page</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nostrum, libero! Laborum distinctio necessitatibus voluptates eaque officiis, unde illo, earum voluptatum rerum, reiciendis ipsa ex dolorem a dicta, maxime aliquam.</p>
+          <p>Web Development</p>
         </a>
         <a href="javascript:void(0)" class="flex-box">
           <i class="fa fa-3x fa-image"></i>

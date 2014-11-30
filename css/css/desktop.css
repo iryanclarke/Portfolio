@@ -1,28 +1,42 @@
 /*------------------------------*\
 
-	TABLE OF CONTENTS
+  TABLE OF CONTENTS
 
-	x. SASS ELEMENTS (not shown in CSS)
+  x. SASS ELEMENTS (not shown in CSS)
 
-	0. HACKS AND OVERRIDES
+  0. HACKS AND OVERRIDES
 
-	1. CONTENT
+  1. CONTENT
 
 \*------------------------------*/
 /*------------------------------------*\
 
-    x. SASS ELEMENTS
+    x. Mandatory Includes
 
 \*------------------------------------*/
-* {
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
 
 body {
   font: 1em "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.618em; }
 
+/*------------------------------------*\
+
+    x. Mobile styling 
+
+\*------------------------------------*/
 /* Typography */
 p, li {
   font-size: 15px;

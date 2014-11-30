@@ -100,7 +100,7 @@
   $color:         hsl(0, 0, 100%);
   $border:        adjust-color($base-color, $saturation:  9%,  $lightness: -14%);
   $inset-shadow:  adjust-color($base-color, $saturation: -8%,  $lightness:  15%);
-  $stop-gradient: adjust-color($base-color, $saturation:  0%,  $lightness: -0%);
+  $stop-gradient: adjust-color($base-color, $saturation:  9%,  $lightness: -11%);
   $text-shadow:   adjust-color($base-color, $saturation:  15%, $lightness: -18%);
 
   @if is-light($base-color) {
@@ -116,7 +116,7 @@
   }
 
   border: 1px solid $border;
-  border-radius: 0px;
+  border-radius: 3px;
   box-shadow: inset 0 1px 0 0 $inset-shadow;
   color: $color;
   display: inline-block;
@@ -129,7 +129,7 @@
   background-clip: padding-box;
 
   &:hover:not(:disabled) {
-    $base-color-hover:    adjust-color($base-color, $saturation: 8%, $lightness: -14%);
+    $base-color-hover:    adjust-color($base-color, $saturation: -4%, $lightness: -5%);
     $inset-shadow-hover:  adjust-color($base-color, $saturation: -7%, $lightness:  5%);
     $stop-gradient-hover: adjust-color($base-color, $saturation:  8%, $lightness: -14%);
 
@@ -139,7 +139,7 @@
       $stop-gradient-hover: grayscale($stop-gradient-hover);
     }
 
-    //box-shadow: inset 0 1px 0 0 $inset-shadow-hover;
+    box-shadow: inset 0 1px 0 0 $inset-shadow-hover;
     cursor: pointer;
     @include linear-gradient ($base-color-hover, $stop-gradient-hover);
   }

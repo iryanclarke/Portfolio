@@ -1,18 +1,18 @@
 /*------------------------------*\
 
-	TABLE OF CONTENTS
+  TABLE OF CONTENTS
 
-	x. SASS ELEMENTS (not shown in CSS)
+  x. SASS ELEMENTS (not shown in CSS)
 
-	0. HACKS AND OVERRIDES
+  0. HACKS AND OVERRIDES
 
-	1. CONTENT
+  1. CONTENT
 
 \*------------------------------*/
 
 /*------------------------------------*\
 
-    x. SASS ELEMENTS
+    x. Mandatory Includes
 
 \*------------------------------------*/
 
@@ -22,6 +22,12 @@
 @import "typography";
 
 
+
+/*------------------------------------*\
+
+    x. Mobile styling 
+
+\*------------------------------------*/
 /* Typography */
 p, li{
   font-size: 15px;
