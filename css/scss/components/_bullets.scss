@@ -63,6 +63,10 @@
     background: adjust-hue($base-accent-color, -140);
   }
 
+  .bullet-icon-4 {
+    background: adjust-hue($base-accent-color, -20);
+  }
+
   .bullet-content {
     margin-left: $icon-bullet-size *1.4;
     margin-bottom: 2em;

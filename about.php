@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
   <!-- jQuery and js -->
   <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
   <script src="js/include.js"></script>
   <link rel="shortcut icon" href="img/favicon.ico">
 </head>
@@ -37,7 +38,7 @@
 
     <section class="bullets">
       <div id="js-fadeInElement" class="bullets">
-        <div class="bullet two-col-bullet">
+        <div class="bullet two-col-bullet" data-block="Background">
           <div class="bullet-icon bullet-icon-1">
             <i class="fa fa-university fa-2x fa-inverse"></i>
           </div>
@@ -48,7 +49,7 @@
             <p>If you would like a comprehensive list of where I've worked and some courses I have taken, please, check out my <a href="http://www.linkedin.com/profile/view?id=267357034">LinkedIn</a></p>
             </div>
         </div>  
-        <div class="bullet two-col-bullet">
+        <div class="bullet two-col-bullet" data-block="Interests">
           <div class="bullet-icon bullet-icon-2">
             <i class="fa fa-paint-brush fa-2x fa-inverse"></i>
           </div>
@@ -59,18 +60,44 @@
             <p>I have also hosted and spoken at meetups I've organized for students in my program who wanted to learn more modern web development practices!</p>
           </div>
         </div>
-        <div class="bullet one-col-bullet">
+        <div class="bullet two-col-bullet" data-block="Languages">
           <div class="bullet-icon bullet-icon-3">
-            <i class="fa fa-book fa-2x fa-inverse"></i>
+            <i class="fa fa-comment fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
-            <h2>Languages and Programs</h2>
-            <p>I have acquired a long list of programs and languages I am familiar with over the years, so i'll break it down into ones that I use very often!</p>
+            <h2>Languages</h2>
+            <p>I'm multi-lingual! :D</p>
+              <ul>
+                  <li><b>Server side:</b></li>
+                  <li>PHP</li>
+                  <li>Chrome: The browser of choice!</li>
+                  <li>SASS: Only about 300x better than plain old CSS!</li>
+                  <li>Git: Version control, the best. 'Nuff said.</li>
+                  <li>PHP: For excellent backend!</li>
+                  <li>jQuery/JavaScript: For excellent backend!</li>
+                  <li>Foundation 5: One of the best frameworks out there!</li>
+              </ul>
+              <p>Here is a list of more programs and languages I know!</p>
+              <ul>
+                  <li>Adobe Creative Suite (Fireworks, Flash, Dreamweaver, Premier Pro)</li>
+                  <li>ColdFusion, MySQL, AJAX, JSON</li>
+                  <li>C, C++, Actionscript 3.0</li>
+                  <li>Microsoft Visual Studio, Autodesk Maya, Eclipse</li>
+              </ul>
+          </div>
+        </div>
+        <div class="bullet two-col-bullet" data-block="Programs">
+          <div class="bullet-icon bullet-icon-4">
+            <i class="fa fa-desktop fa-2x fa-inverse"></i>
+          </div>
+          <div class="bullet-content">
+            <h2>My Stack</h2>
+            <p>Heres is my common local development stack that I use often!</p>
                 <ul>
-                    <li>Sublime text 2: For ALL my coding needs!</li>
-                    <li>Koala: A preprocessor for stuff like SASS, LESS, and CoffeeScript</li>
+                    <li>Sublime text 3: Bling bling with Seti UI theme</li>
+                    <li>Grunt: SASS/CoffeeScript compilers and BrowserSync</li>
                     <li>Chrome: The browser of choice!</li>
-                    <li>SASS: Only about 300x better than plain old CSS!</li>
+                    <li>SASS: I'm sassy!</li>
                     <li>Git: Version control, the best. 'Nuff said.</li>
                     <li>PHP: For excellent backend!</li>
                     <li>jQuery/JavaScript: For excellent backend!</li>
@@ -84,7 +111,6 @@
                     <li>Microsoft Visual Studio, Autodesk Maya, Eclipse</li>
                 </ul>
           </div>
-        </div>
       </div>
     </section>
 

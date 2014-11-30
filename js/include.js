@@ -41,4 +41,14 @@ $(document).ready(function() {
       $(element).addClass('js-fade-element-hide');
     }
   });
+
+      
+  // Dynamic content showing
+  $('[data-block]').waypoint(function(direction) {
+    if(direction === 'down') {
+
+
+    }
+  },{ offset: '75%'});
+  
 });
