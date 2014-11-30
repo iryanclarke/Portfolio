@@ -1271,7 +1271,7 @@ th {
   background-color: #f7f7f7;
   border-radius: 3px;
   border: 1px solid #DDD;
-  margin-bottom: 1.5;
+  margin-bottom: 1.5em;
   cursor: pointer;
   box-shadow: 0 2px 4px #e6e6e6;
   position: relative; }
@@ -1330,13 +1330,13 @@ th {
     border-bottom: 1px solid #DDD;
     border-radius: 3px 3px 0 0;
     font-weight: bold;
-    padding: 0.5 0.809em; }
+    padding: 0.5em 0.809em; }
   .card .card-copy {
-    padding: 0.75 0.809em;
+    padding: 0.75em 0.809em;
     font-size: .9em;
     line-height: 1.5em; }
   .card .card-stats {
-    padding: 0.75 0.809em;
+    padding: 0.75em 0.809em;
     overflow: auto; }
     .card .card-stats ul li {
       display: inline;
@@ -1819,6 +1819,7 @@ input[type="submit"] {
 .side-image .images-wrapper {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
+  background-color: #B5EBEB;
   border-bottom: 1px solid rgba(38, 74, 38, 0.2);
   background-size: cover;
   display: block;
@@ -1843,7 +1844,7 @@ input[type="submit"] {
 .side-image .content h1 {
   margin-bottom: .9em; }
 .side-image .content h4 {
-  background: #5DAC5D;
+  background: #BBB;
   color: white;
   display: inline-block;
   font-size: .75em;
@@ -1852,6 +1853,7 @@ input[type="submit"] {
   padding: 3px 8px;
   text-transform: uppercase; }
 .side-image .content p {
+  color: #333;
   margin-bottom: 3em; }
 
 /* Bitters 0.10.0

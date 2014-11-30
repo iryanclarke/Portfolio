@@ -14,6 +14,10 @@
     background-color: $hover-button-color;
     color: white;
   }
+  &:active {
+    background-color: $hover-button-color;
+    color: white;
+  }
 
   &:disabled {
     cursor: not-allowed;

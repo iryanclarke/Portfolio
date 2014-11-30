@@ -1,4 +1,9 @@
 // This file contains code that needs to be present on all pages
+
+function smoothScroll(link) {  
+  $('html, body').animate({scrollTop:$(link).position().top - 50 }, 'slow');
+}
+
 $(document).ready(function() {
 
   // Navigation Menu
@@ -14,7 +19,7 @@ $(document).ready(function() {
       }
     });
   });
-
+   
 
 
   var element = document.getElementById("js-fadeInElement");

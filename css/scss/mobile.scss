@@ -22,22 +22,21 @@
 @import "typography";
 @import "reset";
 
-
 /*------------------------------------*\
 
     x. Element Sass Includes 
 
 \*------------------------------------*/
-@import "header";
-@import "bullets";
-@import "cards";
-@import "footer";
-@import "comments";
-@import "intro";
-@import "progress";
-@import "side-image";
-@import "flex-box";
-@import "fade-in";
+@import "components/header";
+@import "components/bullets";
+@import "components/cards";
+@import "components/footer";
+@import "components/comments";
+@import "components/intro";
+@import "components/progress";
+@import "components/side-image";
+@import "components/flex-box";
+@import "components/fade-in";
 
 /*------------------------------------*\
 
