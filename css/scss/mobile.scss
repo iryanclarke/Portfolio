@@ -37,6 +37,7 @@
 @import "components/side-image";
 @import "components/flex-box";
 @import "components/fade-in";
+@import "components/modal";
 
 /*------------------------------------*\
 
@@ -65,9 +66,13 @@ section {
     padding-bottom: 2em;
   }
 
-  &:nth-child(even){
-    background-color: $midblue;
+  &:nth-child(odd){
+    background-color: #EFEFEF;
   }
+  &:nth-child(even){
+    background-color: #D1D5D8;
+  }
+
   &.cards {
     div {
       height: auto;

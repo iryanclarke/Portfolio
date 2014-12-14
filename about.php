@@ -68,21 +68,17 @@
             <h2>Languages</h2>
             <p>I'm multi-lingual! :D</p>
               <ul>
+                  <li><b>Front-End</b></li>
+                  <li>SASS: I'm sassy (Also know LESS)</li>
+                  <li>HTML5 (Probably a given)</li>
+                  <li>JavaScript, plain and simple</li>
+                  <li>jQuery</li>
+              </ul>
+              <ul>
                   <li><b>Server side:</b></li>
                   <li>PHP</li>
-                  <li>Chrome: The browser of choice!</li>
-                  <li>SASS: Only about 300x better than plain old CSS!</li>
-                  <li>Git: Version control, the best. 'Nuff said.</li>
-                  <li>PHP: For excellent backend!</li>
-                  <li>jQuery/JavaScript: For excellent backend!</li>
-                  <li>Foundation 5: One of the best frameworks out there!</li>
-              </ul>
-              <p>Here is a list of more programs and languages I know!</p>
-              <ul>
-                  <li>Adobe Creative Suite (Fireworks, Flash, Dreamweaver, Premier Pro)</li>
-                  <li>ColdFusion, MySQL, AJAX, JSON</li>
-                  <li>C, C++, Actionscript 3.0</li>
-                  <li>Microsoft Visual Studio, Autodesk Maya, Eclipse</li>
+                  <li>ColdFusion</li>
+                  <li>MySQL and AJAX</li>
               </ul>
           </div>
         </div>
@@ -92,20 +88,17 @@
           </div>
           <div class="bullet-content">
             <h2>My Stack</h2>
-            <p>Heres is my common local development stack that I use often!</p>
+            <p>Heres is my common local development stack that I use often</p>
                 <ul>
                     <li>Sublime text 3: Bling bling with Seti UI theme</li>
                     <li>Grunt: SASS/CoffeeScript compilers and BrowserSync</li>
                     <li>Chrome: The browser of choice!</li>
-                    <li>SASS: I'm sassy!</li>
                     <li>Git: Version control, the best. 'Nuff said.</li>
-                    <li>PHP: For excellent backend!</li>
-                    <li>jQuery/JavaScript: For excellent backend!</li>
-                    <li>Foundation 5: One of the best frameworks out there!</li>
+                    <li>Bourbon's Neat or Foundation 5</li>
                 </ul>
-                <p>Here is a list of more programs and languages I know!</p>
+                <p>I also have experience with:</p>
                 <ul>
-                    <li>Adobe Creative Suite (Fireworks, Flash, Dreamweaver, Premier Pro)</li>
+                    <li>Adobe Creative Suite (Photoshop, Illustrator, Fireworks, Premier Pro)</li>
                     <li>ColdFusion, MySQL, AJAX, JSON</li>
                     <li>C, C++, Actionscript 3.0</li>
                     <li>Microsoft Visual Studio, Autodesk Maya, Eclipse</li>

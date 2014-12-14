@@ -12,8 +12,7 @@
 
         <div class="footer-secondary-links">
           <ul>
-            <li><a href="javascript:void(0)">Privacy Policy, </a></li>
-            <li><a href="javascript:void(0)">Copyright &copy; 2014 Ian Ryan Clarke</a></li>
+            <li><a href="javascript:void(0)">Privacy Policy, Copyright &copy; 2014 Ian Ryan Clarke </a></li>
           </ul>
 
           <ul class="footer-social">

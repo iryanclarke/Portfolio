@@ -26,36 +26,45 @@
    
     <section>
       <div class="flex-boxes">
-        <a href="javascript:void(0)" class="flex-box flex-box-big">
+        <div class="flex-box flex-box-big modal">
           <i class="fa fa-3x fa-dashboard"></i>
           <h1 class="flex-title">MiniTab landing page</h1>
           <p>Web Development</p>
-        </a>
-        <a href="javascript:void(0)" class="flex-box">
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Modal Title</h1>
+              <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+              <p class="body">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam.</p>
+            </div>
+          </div>
+        </div>
+        <div  class="flex-box">
           <i class="fa fa-3x fa-image"></i>
           <h1 class="flex-title">Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae fugiat tenetur fugit atque dignissimos, fugiat natus vitae.</p>
-        </a>
-        <a href="javascript:void(0)" class="flex-box">
+        </div>
+        <div class="flex-box">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
           <h1 class="flex-title">MiniTab landing page</h1>
           <p>Lorem adipisicing elit. Voluptas consectetur tempora quis nam, officia tenetur blanditiis in illo dolor?</p>
-        </a>
-        <a href="javascript:void(0)" class="flex-box flex-box-big">
+        </div>
+        <div class="flex-box flex-box-big">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
           <h1 class="flex-title">Student Advantage landing page</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis ipsum, officia, aperiam tenetur dolor molestiae voluptate perferendis dolorem vel ex, unde fugit blanditiis sapiente.</p>
-        </a>
-        <a href="javascript:void(0)" class="flex-box">
+        </div>
+        <div class="flex-box">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
           <h1 class="flex-title">Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo obcaecati in provident illo.</p>
-        </a>
-        <a href="javascript:void(0)" class="flex-box">
+        </div>
+        <div class="flex-box">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
           <h1 class="flex-title">Last Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-        </a>
+        </div>
       </div>
     </section>       
        
