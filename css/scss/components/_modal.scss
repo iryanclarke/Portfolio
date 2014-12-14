@@ -9,7 +9,7 @@
   $modal-image-width: $modal-image-height;
 
   cursor: pointer;
-  
+
   label {
     margin-bottom: 0;
   }
@@ -36,7 +36,7 @@
   .modal-window { // overlay
     @include transition(opacity .25s ease);
     @include position(fixed, 0px 0px 0px 0px);
-    max-width: 100% !important;
+    max-width: 100%;
     background: rgba(0,0,0, .85);
     opacity: 0;
     text-align: left;
@@ -91,7 +91,7 @@
     @include media($medium-screen) {
       padding: $modal-padding;
       width: 60%;
-      max-height: 60%;
+      max-height: 100%;
       margin-top: 10em;
     }
 
@@ -115,11 +115,12 @@
       &.intro {
         color: $blue;
         line-height: 1.6em;
+        padding-bottom: 1em;
       }
 
       &.body { 
         color: $base-font-color;
-        line-height: 1.45em;
+        line-height: 1.5em;
 
         @include media($medium-screen) {
           @include columns(2 8em);

@@ -20,8 +20,12 @@ $(document).ready(function() {
     });
   });
    
-
-
+  $('.modal').click(function(){
+    $(this).find('input[type=checkbox]').prop('checked', function(){
+          return !this.checked;
+      });
+  });
+  /*
   var element = document.getElementById("js-fadeInElement");
   $(element).addClass('js-fade-element-hide');
 
@@ -50,5 +54,5 @@ $(document).ready(function() {
 
     }
   },{ offset: '75%'});
-  
+  */
 });

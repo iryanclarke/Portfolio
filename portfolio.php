@@ -35,35 +35,80 @@
             <div class="modal-inner">
               <label class="modal-close" for="modal-1"></label>
               <h1>Modal Title</h1>
+              <p class="intro">Roles: Web Developer and QA tester.</p>
+              <p class="body">The Minitab Landing page was created for Kivuto Solutions, in order to replace the previous non-responsive version and give the page a visual update! I was the only person working on developing the website, and it was completed around Feburary 2014. You can find it <a href="http://onthehub.com/minitab/">here</a></p>
+            </div>
+          </div>
+        </div>
+        <div  class="flex-box modal">
+          <i class="fa fa-3x fa-image"></i>
+          <h1 class="flex-title">Flex Box Item</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae fugiat tenetur fugit atque dignissimos, fugiat natus vitae.</p>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Modal Title</h1>
+              <p class="intro">Roles: Web Developer and QA tester.</p>
+              <p class="body">The Student Advantage Landing page was created for Kivuto Solutions, in order to create a new streamlined way of generating leads for the Microsoft Student Advantage program. Similar to the Minitab page, I was the only person working on developing the website, and it was completed around April 2014. You can find it <a href="http://kivuto.com/microsoft-student-advantage-deployment/">here</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-box modal">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+          <h1 class="flex-title">MiniTab landing page</h1>
+          <p>Lorem adipisicing elit. Voluptas consectetur tempora quis nam, officia tenetur blanditiis in illo dolor?</p>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Modal Title</h1>
+              <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+              <p class="body">This was a little hacking project I'm currently working on, I intended it to put on any scrolling/parallax websites I made to give a cool visual representation of how far you had scrolled. It's still under development, but I intend for it to be completely responsive and super lightweight! You can find it at <a href="http://iryanclarke.com/scroller-guage/">here</a>/p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-box flex-box-big modal">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <h1 class="flex-title">Student Advantage landing page</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis ipsum, officia, aperiam tenetur dolor molestiae voluptate perferendis dolorem vel ex, unde fugit blanditiis sapiente.</p>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Modal Title</h1>
               <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
               <p class="body">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam.</p>
             </div>
           </div>
         </div>
-        <div  class="flex-box">
-          <i class="fa fa-3x fa-image"></i>
-          <h1 class="flex-title">Flex Box Item</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae fugiat tenetur fugit atque dignissimos, fugiat natus vitae.</p>
-        </div>
-        <div class="flex-box">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-          <h1 class="flex-title">MiniTab landing page</h1>
-          <p>Lorem adipisicing elit. Voluptas consectetur tempora quis nam, officia tenetur blanditiis in illo dolor?</p>
-        </div>
-        <div class="flex-box flex-box-big">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-          <h1 class="flex-title">Student Advantage landing page</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis ipsum, officia, aperiam tenetur dolor molestiae voluptate perferendis dolorem vel ex, unde fugit blanditiis sapiente.</p>
-        </div>
-        <div class="flex-box">
+        <div class="flex-box modal">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
           <h1 class="flex-title">Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo obcaecati in provident illo.</p>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Modal Title</h1>
+              <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+              <p class="body">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam.</p>
+            </div>
+          </div>
         </div>
-        <div class="flex-box">
+        <div class="flex-box modal">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
           <h1 class="flex-title">Last Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Modal Title</h1>
+              <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+              <p class="body">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>       
