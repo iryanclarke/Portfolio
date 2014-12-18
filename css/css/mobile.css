@@ -452,11 +452,16 @@ header.navigation {
       max-height: 60px;
       padding: .8em 0; }
     header.navigation .logo h1 {
+      -webkit-transition: color 0.2s linear;
+      -moz-transition: color 0.2s linear;
+      transition: color 0.2s linear;
       display: none;
       color: #2C82C9; }
       @media screen and (min-width: 53.75em) {
         header.navigation .logo h1 {
           display: block; } }
+      header.navigation .logo h1:hover {
+        color: #54ACD2; }
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.7);
     display: block;
@@ -2112,7 +2117,7 @@ input[type="submit"] {
   margin-bottom: 2em; }
 
 .flex-box i {
-  opacity: .6;
+  opacity: .5;
   color: black;
   margin: auto;
   margin-bottom: 0.5em; }

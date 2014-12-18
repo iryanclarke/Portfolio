@@ -41,10 +41,14 @@ header.navigation {
       padding: .8em 0;
     }
     h1 {
+      @include transition(color 0.1s linear);
       display: none;
       color: #2C82C9;
       @include media ($horizontal-bar-mode) {
         display: block;
+      }
+      &:hover {
+        color: #54ACD2;
       }
     }
   }
