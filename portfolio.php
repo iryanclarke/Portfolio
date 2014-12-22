@@ -5,17 +5,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Portfolio - Ian Ryan Clarke</title>
-  <meta charset="utf-8" />
-  <meta name="description" content="Ian's Portfolio" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <!-- Stylesheets-->
-  <link rel="stylesheet" href="css/css/mobile.css">
-  <link rel="stylesheet" href="css/css/desktop.css" media="(min-width:50em)">
-  <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
-  <!-- jQuery and js -->
-  <script src="js/jquery-1.9.1.min.js"></script>
-  <script src="js/include.js"></script>
-  <link rel="shortcut icon" href="img/favicon.ico">
+
+<?php include 'stylesheets.php'; ?>  
+
 </head>
 
 <body>
@@ -34,7 +26,7 @@
           <div class="modal-window">
             <div class="modal-inner">
               <label class="modal-close" for="modal-1"></label>
-              <h1>Modal Title</h1>
+              <h1>Minitab landing page</h1>
               <p class="intro">Roles: Web Developer and QA tester.</p>
               <p class="body">The Minitab Landing page was created for Kivuto Solutions, in order to replace the previous non-responsive version and give the page a visual update! I was the only person working on developing the website, and it was completed around Feburary 2014. You can find it <a href="http://onthehub.com/minitab/">here</a></p>
             </div>
@@ -42,8 +34,8 @@
         </div>
         <div  class="flex-box modal">
           <i class="fa fa-3x fa-image"></i>
-          <h1 class="flex-title">Flex Box Item</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestiae fugiat tenetur fugit atque dignissimos, fugiat natus vitae.</p>
+          <h1 class="flex-title">Student Advantage landing page</h1>
+          <p>Web Development</p>
           <input class="modal-state" id="modal-1" type="checkbox" />
           <div class="modal-window">
             <div class="modal-inner">
@@ -56,8 +48,8 @@
         </div>
         <div class="flex-box modal">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-          <h1 class="flex-title">MiniTab landing page</h1>
-          <p>Lorem adipisicing elit. Voluptas consectetur tempora quis nam, officia tenetur blanditiis in illo dolor?</p>
+          <h1 class="flex-title">ET Movie poster</h1>
+          <p>Illustration</p>
           <input class="modal-state" id="modal-1" type="checkbox" />
           <div class="modal-window">
             <div class="modal-inner">
