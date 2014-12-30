@@ -16,9 +16,14 @@
             </ul>
 
             <ul class="footer-social">
-              <li><a href="https://twitter.com/tridotdesigns">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="">
-                </a></li>
+              <li>
+                <a href="https://github.com/iryanclarke">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-github fa-stack-1x"></i>
+                  </span>
+                </a>
+              </li>
               <li><a href="https://twitter.com/tridotdesigns">
                 <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="">
               </a></li>

@@ -18,8 +18,9 @@
    
     <section>
       <div class="flex-boxes">
+
         <div class="flex-box flex-box-big modal">
-          <i class="fa fa-3x fa-dashboard"></i>
+          <i class="fa fa-3x fa-code"></i>
           <h1 class="flex-title">MiniTab landing page</h1>
           <p>Web Development</p>
           <input class="modal-state" id="modal-1" type="checkbox" />
@@ -29,53 +30,59 @@
               <h1>Minitab landing page</h1>
               <p class="intro">Roles: Web Developer and QA tester.</p>
               <p class="body">The Minitab Landing page was created for Kivuto Solutions, in order to replace the previous non-responsive version and give the page a visual update! I was the only person working on developing the website, and it was completed around Feburary 2014. You can find it <a href="http://onthehub.com/minitab/">here</a></p>
+              <img src="img/photogallery/minitab-desktop.png" alt="MiniTab landing page" title="MiniTab landing page" />
             </div>
           </div>
         </div>
+
         <div  class="flex-box modal">
-          <i class="fa fa-3x fa-image"></i>
+          <i class="fa fa-3x fa-code"></i>
           <h1 class="flex-title">Student Advantage landing page</h1>
           <p>Web Development</p>
-          <input class="modal-state" id="modal-1" type="checkbox" />
+          <input class="modal-state" id="modal-2" type="checkbox" />
           <div class="modal-window">
             <div class="modal-inner">
-              <label class="modal-close" for="modal-1"></label>
+              <label class="modal-close" for="modal-2"></label>
               <h1>Modal Title</h1>
               <p class="intro">Roles: Web Developer and QA tester.</p>
               <p class="body">The Student Advantage Landing page was created for Kivuto Solutions, in order to create a new streamlined way of generating leads for the Microsoft Student Advantage program. Similar to the Minitab page, I was the only person working on developing the website, and it was completed around April 2014. You can find it <a href="http://kivuto.com/microsoft-student-advantage-deployment/">here</a></p>
+              <img src="img/photogallery/student-advantage.png" alt="MiniTab landing page" title="MiniTab landing page" />
             </div>
           </div>
         </div>
+
         <div class="flex-box modal">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+          <i class="fa fa-3x fa-paint-brush"></i>
           <h1 class="flex-title">ET Movie poster</h1>
           <p>Illustration</p>
-          <input class="modal-state" id="modal-1" type="checkbox" />
+          <input class="modal-state" id="modal-3" type="checkbox" />
           <div class="modal-window">
             <div class="modal-inner">
-              <label class="modal-close" for="modal-1"></label>
-              <h1>Modal Title</h1>
-              <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-              <p class="body">This was a little hacking project I'm currently working on, I intended it to put on any scrolling/parallax websites I made to give a cool visual representation of how far you had scrolled. It's still under development, but I intend for it to be completely responsive and super lightweight! You can find it at <a href="http://iryanclarke.com/scroller-guage/">here</a>/p>
+              <label class="modal-close" for="modal-3"></label>
+              <h1>ET Movie poster</h1>
+              <p class="intro">Technologies used: Adobe Illustrator and VectorScribe.</p>
+              <p class="body">This was a side project I did just to experiment around with Adobe Illustrator, and creating some complex vector objects.</p>
             </div>
           </div>
         </div>
+
         <div class="flex-box flex-box-big modal">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <i class="fa fa-3x fa-code"></i>
           <h1 class="flex-title">Student Advantage landing page</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis ipsum, officia, aperiam tenetur dolor molestiae voluptate perferendis dolorem vel ex, unde fugit blanditiis sapiente.</p>
-          <input class="modal-state" id="modal-1" type="checkbox" />
+          <input class="modal-state" id="modal-4" type="checkbox" />
           <div class="modal-window">
             <div class="modal-inner">
-              <label class="modal-close" for="modal-1"></label>
+              <label class="modal-close" for="modal-4"></label>
               <h1>Modal Title</h1>
               <p class="intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
               <p class="body">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam.</p>
             </div>
           </div>
         </div>
+
         <div class="flex-box modal">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <i class="fa fa-3x fa-code"></i>
           <h1 class="flex-title">Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo obcaecati in provident illo.</p>
           <input class="modal-state" id="modal-1" type="checkbox" />
@@ -88,8 +95,9 @@
             </div>
           </div>
         </div>
+
         <div class="flex-box modal">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+          <i class="fa fa-3x fa-code"></i>
           <h1 class="flex-title">Last Flex Box Item</h1>
           <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
           <input class="modal-state" id="modal-1" type="checkbox" />
@@ -102,6 +110,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>       
        

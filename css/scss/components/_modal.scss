@@ -92,12 +92,19 @@
       padding: $modal-padding;
       width: 60%;
       max-height: 100%;
-      margin-top: 10em;
+      margin-top: 8em;
     }
 
     @include media($large-screen) {
       width: 50%;
       margin-top: 10em;
+    }
+
+    img {
+      opacity: 1;
+      display: inline-block;
+      height: inherit;
+      padding-top: 3em;
     }
 
     h1 {

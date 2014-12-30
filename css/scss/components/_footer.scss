@@ -39,7 +39,7 @@
     }
   }
 
-  .footer-logo img {
+  .footer-logo img, .footer-logo i{
     height: 1.6em;
   } 
 
@@ -61,7 +61,7 @@
       text-align: left;
     }
   }
-  
+
   a {
     padding-top: 0.2em;
   }
@@ -102,7 +102,7 @@
         }
       }
 
-      img {
+      img, span {
         opacity: .7;
         height: 1.6em;
         padding: 1px;
