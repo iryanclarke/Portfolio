@@ -27,8 +27,7 @@
       <div class="bullets">
         <div class="bullet three-col-bullet">
           <div class="bullet-icon bullet-icon-1">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png
-      " alt="">
+            <i class="fa fa-university fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
             <h2>This Bullet Title</h2>
@@ -37,7 +36,7 @@
         </div>  
         <div class="bullet three-col-bullet">
           <div class="bullet-icon bullet-icon-2">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+            <i class="fa fa-university fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
             <h2>Another Bullet Title</h2>
@@ -46,7 +45,7 @@
         </div>
         <div class="bullet three-col-bullet">
           <div class="bullet-icon bullet-icon-3">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png" alt="">
+            <i class="fa fa-university fa-2x fa-inverse"></i>
           </div>
           <div class="bullet-content">
             <h2>Last Bullet Title</h2>

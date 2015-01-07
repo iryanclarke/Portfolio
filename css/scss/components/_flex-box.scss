@@ -83,6 +83,11 @@ $flex-box-top-colors:
   color: transparentize($flex-box-color, .1);
 }
 
+p.field {
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
 .flex-box-big {
   @include flex(1 1 40em);
 }
