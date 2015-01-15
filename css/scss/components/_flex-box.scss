@@ -13,7 +13,8 @@ $flex-box-top-colors:
   #92B1E3, 
   #E3D743,
   #CCC,
-  #F6C05C;
+  #F6C05C,
+  #9365B8;
 
 .flex-boxes {
   @include clearfix;
@@ -35,7 +36,7 @@ $flex-box-top-colors:
   padding: 2em 2em 3em 2em;
   background: $flex-box-background;
 
-  @for $i from 1 to 7 { // assign colors from $flex-box-top-colors list
+  @for $i from 1 to 8 { // assign colors from $flex-box-top-colors list
     &:nth-child(#{$i}) {
       $color-from-list: nth($flex-box-top-colors, $i);
       border-top: 6px solid $color-from-list;

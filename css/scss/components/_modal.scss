@@ -130,7 +130,7 @@
         line-height: 1.5em;
 
         @include media($medium-screen) {
-          @include columns(2 8em);
+          @include columns(1 16em);
         }
       }
     }
