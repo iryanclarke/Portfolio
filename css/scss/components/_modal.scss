@@ -90,13 +90,13 @@
 
     @include media($medium-screen) {
       padding: $modal-padding;
-      width: 60%;
+      width: 75%;
       max-height: 100%;
       margin-top: 8em;
     }
 
     @include media($large-screen) {
-      width: 50%;
+      width: 75%;
       margin-top: 10em;
     }
 
