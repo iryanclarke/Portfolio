@@ -2700,12 +2700,12 @@ input[type="submit"] {
     @media screen and (min-width: 40em) {
       .modal .modal-inner {
         padding: 3em;
-        width: 60%;
+        width: 75%;
         max-height: 100%;
         margin-top: 8em; } }
     @media screen and (min-width: 53.75em) {
       .modal .modal-inner {
-        width: 50%;
+        width: 75%;
         margin-top: 10em; } }
     .modal .modal-inner img {
       opacity: 1;
@@ -2774,11 +2774,16 @@ input[type="submit"] {
   .grid-items-lines .grid-item img {
     display: block;
     height: 2.5em;
-    margin-bottom: 1.2em;
+    margin: auto;
     opacity: .2; }
+  .grid-items-lines .grid-item i {
+    display: block;
+    margin: auto;
+    opacity: .4; }
   .grid-items-lines .grid-item h1 {
     color: #333;
     font-size: 1.3em;
+    margin-top: 1.2em;
     margin-bottom: .4em; }
   .grid-items-lines .grid-item p {
     color: rgba(51, 51, 51, 0.6); }

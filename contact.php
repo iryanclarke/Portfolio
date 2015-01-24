@@ -60,43 +60,38 @@
 
     <section class="grid-items">
       <div class="grid-items-lines">
-        <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
-          <h1>Grid Item</h1>
-          <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+        <a href="github.com/iryanclarke" class="grid-item">
+          <i class="fa fa-3x fa-github"></i>
+          <h1>GitHub</h1>
+          <p>Social source code control with Git</p>
+        </a>
+        <a href="twitter.com/tridotdesigns" class="grid-item">
+          <i class="fa fa-3x fa-twitter"></i>
+          <h1>Twitter</h1>
+          <p>Tweetin'.</p>
         </a>
         <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-          <h1>Another Item</h1>
-          <p>Lorem ipsum consectetur dolor sit amet, consectetur adipisicing elit.</p>
+          <i class="fa fa-3x fa-linkedin"></i>
+          <h1>LinkedIn</h1>
+          <p>Full professional portfolio</p>
+        </a>
+        <a href="mailto:ian@iryanclarke.com" class="grid-item">
+          <i class="fa fa-3x fa-envelope-o"></i>
+          <h1>Email</h1>
+          <p>ian (at) iryanclarke.com</p>
         </a>
         <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-          <h1>Another Grid Item</h1>
-          <p>Lorem ipsum dolor sit amet, elit.</p>
-        </a>
-        <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-          <h1>Grid Item</h1>
-          <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-        </a>
-        <a href="javascript:void(0)" class="grid-item grid-item-big">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <i class="fa fa-3x fa-paint-brush"></i>
           <h1>Wider Grid Item</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, illum.</p>
         </a>
         <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-          <h1>A Grid Item</h1>
-          <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-        </a>
-        <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
+          <i class="fa fa-3x fa-paint-brush"></i>
           <h1>Item</h1>
           <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
         </a>
         <a href="javascript:void(0)" class="grid-item">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+          <i class="fa fa-3x fa-stack-overflow"></i>
           <h1>Last Grid Item</h1>
           <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
         </a>
