@@ -159,9 +159,9 @@
         
     <script src="js/gAnalytics.js"></script> 
          
-    <div class="footer">
-    	<p1>Design and Development by Ian Clarke</p1>
-    </div>
+    <?php
+        include 'footer.php';
+    ?> 
 </body>
 
 </html>

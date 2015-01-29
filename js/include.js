@@ -25,7 +25,8 @@ $(document).ready(function() {
           return !this.checked;
       });
   });
-  /*
+  
+
   var element = document.getElementById("js-fadeInElement");
   $(element).addClass('js-fade-element-hide');
 
@@ -46,7 +47,7 @@ $(document).ready(function() {
     }
   });
 
-      
+  /*    
   // Dynamic content showing
   $('[data-block]').waypoint(function(direction) {
     if(direction === 'down') {
