@@ -1,19 +1,25 @@
-<header class="navigation">
-  <div class="navigation-wrapper">
-    <a href="index.php" class="logo">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
-      <h1>IAN RYAN CLARKE</h1>
-    </a>
-    <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-    <div class="nav">
-      <ul id="navigation-menu">
-        <li class="nav-link"><a href="about.php">About Me</a></li>
-        <li class="nav-link"><a href="portfolio.php">Portfolio</a></li>
-        <li class="nav-link"><a href="contact.php">Contact</a></li>
-        <li class="nav-link"><a href="contact.php">Blog</a></li>
-        </li>
+<nav role="navigation" class="navbar navbar-inverse navbar-transparent navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display-->
+    <div class="navbar-header">
+      <button id="menu-toggle" type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar bar1"></span>
+        <span class="icon-bar bar2"></span>
+        <span class="icon-bar bar3"></span>
+      </button>
+      <a href="#" class="navbar-brand">
+        <i class="fa fa-bolt fa-spin"></i> Ian Ryan Clarke
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling-->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a onclick="scrollTo('.about');">Who am I?</a></li>
+        <li><a onclick="scrollTo('.play');">Some of my work</a></li>
+        <li><a onclick="scrollTo('.action');">See it in Action</a></li>
+        <li><a onclick="scrollTo('.team');">The Team</a></li>
       </ul>
     </div>
   </div>
-</header>
-<div class="wrapper-for-content-outside-of-footer">
+</nav>

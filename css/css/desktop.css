@@ -70,6 +70,8 @@ section {
     overflow: auto; }
   section.cards {
     padding: 1em; }
+    section.cards h2 {
+      padding-bottom: 20px; }
     section.cards div {
       height: auto;
       padding: 0em;
