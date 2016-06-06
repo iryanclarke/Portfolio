@@ -34,23 +34,26 @@
             <div class="row">
              <div class="col-md-8">
                 <div class="card card-plain">
-                   <div class="image" style="background-image: url(&quot;public/img/login-bg.png&quot;); background-size: cover; background-position: 50% 50%;">
-                      <img src="public/img/login-bg.png" alt="..." style="display: none;">
+                   <div class="image" style="background-image: url(&quot;public/img/pyjamajam.jpg&quot;); background-size: cover; background-position: 50% 50%;">
+                      <img src="public/img/pyjamajam.jpg" alt="..." style="display: none;">
                       <div class="filter">
-                         <button type="button" class="btn btn-neutral btn-simple">
-                           <i class="fa fa-bookmark-o"></i> Visit Site
-                         </button>
+                         <a href="http://www.pyjamajam.com" target="_blank">
+                           <button type="button" class="btn btn-neutral btn-simple">
+                             <i class="fa fa-bookmark-o"></i> Visit Site
+                           </button>
+                        </a>
                          <button type="button" class="btn btn-neutral btn-simple" data-toggle="modal" data-target="#pyjamaJam">
                            <i class="fa fa-align-left"></i> More information
                          </button>
                       </div>
                    </div>
                    <div class="content">
-                      <p class="category text-info">
-                         <i class="fa fa-calendar"></i> Most recent
+                      <p class="category">
+                         <i class="fa fa-calendar"></i> <span class="text-info">Most recent, </span>
+                         Development
                       </p>
                       <a class="card-link" data-toggle="modal" data-target="#pyjamaJam">
-                         <h4 class="title">Pyjama Jam, an Immersive multiplayer game where everyone can join in on the fun!</h4>
+                         <h4 class="title">Pyjama Jam, an Immersive multiplayer game</h4>
                       </a>
                       <div class="footer">
                          <div class="author">
@@ -71,39 +74,34 @@
              </div>
              <div class="col-md-4">
                 <div class="card card-plain">
-                   <div class="image" style="background-image: url(&quot;public/img/login-bg.png&quot;); background-size: cover; background-position: 50% 50%;">
-                      <img src="public/img/login-bg.png" alt="..." style="display: none;">
+                   <div class="image" style="background-image: url(&quot;public/img/masteringgit.png&quot;); background-size: cover; background-position: 50% 50%;">
+                      <img src="public/img/masteringgit.png" alt="..." style="display: none;">
                       <div class="filter">
-                         <button type="button" class="btn btn-neutral btn-simple">
-                         <i class="fa fa-bookmark-o"></i> Bookmark
-                         </button>
-                         <button type="button" class="btn btn-neutral btn-simple">
-                         <i class="fa fa-align-left"></i> Read article
-                         </button>
+                        <a href="https://speakerdeck.com/iryanclarke" target="_blank">
+                          <button type="button" class="btn btn-neutral btn-simple">
+                            <i class="fa fa-bookmark-o"></i> See Slides
+                          </button>
+                        </a>
+                        <button type="button" class="btn btn-neutral btn-simple" data-toggle="modal" data-target="#masterGit">
+                          <i class="fa fa-align-left"></i> More information
+                        </button>
                       </div>
                    </div>
                    <div class="content">
-                      <p class="category text-danger">
-                         <i class="fa fa-fire" rel="tooltip" title="" data-original-title="Hot!"></i> Hot Story
-                      </p>
-                      <a class="card-link" href="#">
-                         <h4 class="title">Doop level #4 </h4>
+                      <p class="category">Speaking, Event Organization</p>
+                      <a class="card-link" href="https://speakerdeck.com/iryanclarke">
+                         <h4 class="title">GitHub workshop</h4>
                       </a>
                       <div class="footer">
                          <div class="author">
                             <a class="card-link" href="#">
-                            <img src="../assets/img/faces/face-7.jpg" alt="..." class="avatar">
-                            <span> Radu </span>
+                              <img src="public/img/faces-01.png" alt="..." class="avatar">
+                              <span> Speaker </span>
                             </a>
                          </div>
                          <div class="stats pull-right">
                             <a class="card-link" href="#">
-                            <i class="fa fa-heart"></i> 892
-                            </a>
-                         </div>
-                         <div class="stats pull-right">
-                            <a class="card-link" href="#">
-                            <i class="fa fa-comment"></i> 411
+                            <i class="fa fa-calendar"></i> 2015
                             </a>
                          </div>
                       </div>
@@ -113,32 +111,36 @@
              </div>
              <div class="col-md-5">
                 <div class="card card-plain">
-                   <div class="image" style="background-image: url(&quot;public/img/login-bg.png&quot;); background-size: cover; background-position: 50% 50%;">
-                      <img src="public/img/login-bg.png" alt="..." style="display: none;">
+                   <div class="image" style="background-image: url(&quot;public/img/frameworks.png&quot;); background-size: cover; background-position: 50% 50%;">
+                      <img src="public/img/frameworks.png" alt="..." style="display: none;">
                       <div class="filter">
-                         <button type="button" class="btn btn-neutral btn-simple">
-                         <i class="fa fa-bookmark-o"></i> Bookmark
-                         </button>
-                         <button type="button" class="btn btn-neutral btn-simple">
-                         <i class="fa fa-align-left"></i> Read article
-                         </button>
+                        <a href="https://speakerdeck.com/iryanclarke" target="_blank">
+                          <button type="button" class="btn btn-neutral btn-simple">
+                            <i class="fa fa-bookmark-o"></i> See Slides
+                          </button>
+                        </a>
+                        <button type="button" class="btn btn-neutral btn-simple" data-toggle="modal" data-target="#frameworks">
+                          <i class="fa fa-align-left"></i> More information
+                        </button>
                       </div>
                    </div>
                    <div class="content">
-                      <p class="category">Creative</p>
+                      <p class="category">Speaking, Event Organization</p>
                       <a class="card-link" href="#">
-                         <h4 class="title">This is a very beautiful field in our office and Get Shit Done Kit PRO, the most wanted bootstrap kit is here. We would love to hear your feedback about it... </h4>
+                         <h4 class="title">Framework workshop</h4>
                       </a>
                       <div class="footer">
-                         <div class="author">
-                            <a class="card-link" href="#">
-                            <img src="../assets/img/faces/face-6.jpg" alt="..." class="avatar">
-                            <span> Elena </span>
-                            </a>
-                         </div>
-                         <div class="stats pull-right">
-                            <i class="fa fa-clock-o"></i> 7 min read
-                         </div>
+                        <div class="author">
+                           <a class="card-link" href="#">
+                             <img src="public/img/faces-01.png" alt="..." class="avatar">
+                             <span> Speaker </span>
+                           </a>
+                        </div>
+                        <div class="stats pull-right">
+                           <a class="card-link" href="#">
+                           <i class="fa fa-calendar"></i> 2014, 2015
+                           </a>
+                        </div>
                       </div>
                    </div>
                 </div>
@@ -146,46 +148,58 @@
              </div>
              <div class="col-md-7">
                 <div class="card card-plain">
-                   <div class="image" style="background-image: url(&quot;public/img/login-bg.png&quot;); background-size: cover; background-position: 50% 50%;">
-                      <img src="public/img/login-bg.png" alt="..." style="display: none;">
+                   <div class="image" style="background-image: url(&quot;public/img/eow.png&quot;); background-size: cover; background-position: 50% 50%;">
+                      <img src="public/img/eow.png" alt="..." style="display: none;">
                       <div class="filter">
+                        <a href="http://www.onthehub.com/evolution-of-windows" target="_blank">
+                          <button type="button" class="btn btn-neutral btn-simple">
+                            <i class="fa fa-bookmark-o"></i> Visit Site
+                          </button>
+                       </a>
                          <button type="button" class="btn btn-neutral btn-simple">
-                         <i class="fa fa-bookmark-o"></i> Bookmark
-                         </button>
-                         <button type="button" class="btn btn-neutral btn-simple">
-                         <i class="fa fa-align-left"></i> Read article
+                         <i class="fa fa-align-left"></i> More information
                          </button>
                       </div>
                    </div>
                    <div class="content">
-                      <p class="category">News</p>
+                      <p class="category">Development</p>
                       <a class="card-link" href="#">
-                         <h4 class="title">Get Shit Done Kit PRO, the most wanted bootstrap kit is here and... </h4>
+                         <h4 class="title">Evolution of Windows</h4>
                       </a>
                       <div class="footer">
                          <div class="author">
                             <a class="card-link" href="#">
-                            <img src="../assets/img/faces/face-5.jpg" alt="..." class="avatar">
-                            <span> Alex </span>
+                            <img src="public/img/faces-01.png" alt="..." class="avatar">
+                            <span> FRONTEND DEV </span>
                             </a>
                          </div>
                          <div class="stats pull-right">
-                            <i class="fa fa-clock-o"></i> 17 min read
+                            <a class="card-link" href="#">
+                            <i class="fa fa-calendar"></i> Summer 2015
+                            </a>
                          </div>
                       </div>
                    </div>
                 </div>
                 <!-- end card -->
              </div>
+           </div>
           </div>
-
+          <div class="row text-center">
+            <div class="col-md-12">
+              <div class="social-area text-center">
+                  <h5>Want more examples?</h5>
+                  <p>Check out my <a href="https://www.github.com/iryanclarke">GitHub</a> or my <a href="https://www.linkedin.com/in/ian-ryan-clarke-60a65475">LinkedIn</a>
+                  </a>
+              </div>
+            </div>
           </div>
         </div>
       </div><!-- end portfolio section -->
 
-      <div class="section play">
+      <div class="section bytes">
         <div class="container">
-          <h2 class="section-title">Bits and Bytes</h2>
+          <h2 class="section-title">Knowledge & Experience</h2>
           <div class="row">
              <div class="col-md-4">
                <div class="card card-product">
@@ -207,131 +221,82 @@
 
              <div class="col-md-8">
                 <ul class="nav nav-icons" role="tablist">
-                  <li class="">
-                    <a href="#smart-vertical-logo" role="tab" data-toggle="tab" aria-expanded="false">
+                  <li class="active">
+                    <a href="#front-end" role="tab" data-toggle="tab" aria-expanded="true">
                          <i class="fa fa-lightbulb-o"></i><br>
-                         Smart Area
+                         Front-End
                     </a>
                   </li>
                   <li class="">
                     <a href="#map-vertical-logo" role="tab" data-toggle="tab" aria-expanded="false">
                         <i class="fa fa-map-marker"></i><br>
-                        Location
+                        Back-End
                     </a>
                   </li>
                   <li class="">
                     <a href="#legal-vertical-logo" role="tab" data-toggle="tab" aria-expanded="false">
-                        <i class="fa fa-legal"></i><br>
-                        Legal Info
+                        <i class="fa fa-wrench"></i><br>
+                        My Stack
                     </a>
-                  </li>
-                  <li class="active">
-                   <a href="#help-vertical-logo" role="tab" data-toggle="tab" aria-expanded="true">
-                        <i class="fa fa-life-ring"></i><br>
-                        Help Center
-                   </a>
                   </li>
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane" id="smart-vertical-logo">
-                          <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly meets the new Retina HD display. It’s one continuous form where hardware and software function in perfect unison, creating a new generation of phone that’s better by any measure.</p>
+                    <div class="tab-pane active" id="front-end">
+                      <p>4 years of professional experience in front-end development, using technologies such as:</p>
+                      <ul>
+                        <li>SASS & LESS</li>
+                        <li>AngularJS</li>
+                        <li>CSS Animations (Libraries like <a href="https://github.com/Prinzhorn/skrollr">skrollr</a>)</li>
+                        <li>Three.js/WebGL</li>
+                        <li>Websockets</li>
+                      </ul>
                     </div>
                     <div class="tab-pane" id="map-vertical-logo">
-                        <p>The first thing you notice when you hold the phone is how great it feels in your hand. The cover glass curves down around the sides to meet the anodized aluminum enclosure in a remarkable, simplified design. There are no distinct edges. No gaps. Just a smooth, seamless bond of metal and glass that feels like one continuous surface.</p>
+                      <p>3 years of professional experience in back-end development, with technologies such as:</p>
+                      <ul>
+                        <li>PHP</li>
+                        <li>Node.js (Express.js)</li>
+                        <li>AJAX/Websockets</li>
+                        <li>Linux Server (Ubuntu) management</li>
+                        <li>Shell/Bash</li>
+                      </ul>
                      </div>
                      <div class="tab-pane" id="legal-vertical-logo">
                          <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly meets the new Retina HD display. </p>
                          <p> Just a smooth, seamless bond of metal and glass that feels like one continuous surface. </p>
-                      </div>
-                      <div class="tab-pane active" id="help-vertical-logo">
-                        <p>From the seamless transition of glass and metal to the streamlined profile, every detail was carefully considered to enhance your experience. So while its display is larger, the phone feels just right.</p>
                       </div>
                 </div>
             </div> <!-- end col-md-8 -->
           </div>
         </div>
       </div>
-      <div class="section action">
+      <div class="section section-gray action">
         <div class="container">
-          <h2 class="section-title">See it in Action</h2>
           <div class="row">
-            <div class="col-md-4">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
+            <div class="col-md-12">
+              <div class="social-area text-center">
+                  <h5>Find me on</h5>
+                  <a href="#" class="btn btn-social btn-round btn-facebook">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="https://twitter.com/tridotdesigns"  class="btn btn-social btn-round btn-twitter">
+                      <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="https://www.github.com/iryanclarke" class="btn btn-social btn-round btn-github">
+                      <i class="fa fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ian-ryan-clarke-60a65475" class="btn btn-social btn-round btn-linkedin">
+                      <i class="fa fa-linkedin"></i>
+                  </a>
               </div>
-              <!-- end card-->
-            </div>
-            <div class="col-md-8">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
-              </div>
-              <!-- end card-->
-            </div>
-            <div class="col-md-8">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
-              </div>
-              <!-- end card-->
-            </div>
-            <div class="col-md-4">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
-              </div>
-              <!-- end card-->
-            </div>
-            <div class="col-md-4">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
-              </div>
-              <!-- end card-->
-            </div>
-            <div class="col-md-4">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
-              </div>
-              <!-- end card-->
-            </div>
-            <div class="col-md-4">
-              <div class="card card-plain">
-                <div class="image"><img src="public/img/login-bg.png" alt="..."/>
-                  <div class="filter">
-                    <button type="button" class="btn btn-neutral btn-simple"><i class="fa fa-image"></i> View Image</button>
-                  </div>
-                </div>
-              </div>
-              <!-- end card-->
             </div>
           </div>
         </div>
       </div>
       <!-- end section see it in action-->
-    
+
 
     <div class="modal fade" id="pyjamaJam" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -347,7 +312,26 @@
 
           <div class="modal-footer">
             <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-info btn-simple">Save</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="masterGit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Mastering Github</h4>
+          </div>
+
+          <div class="modal-body">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
           </div>
 
         </div>
@@ -357,10 +341,22 @@
     <?php
         include 'footer.php';
     ?>
-    <script src="js/gAnalytics.js"></script>
 
-    <script type='text/javascript'>//<![CDATA[
-    document.write("<script async src='//HOST:3001/browser-sync/browser-sync-client.1.6.0.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
-//]]></script>
+    <!-- jQuery and Bootstrap core files-->
+    <script src="public/js/jquery.js" type="text/javascript"></script>
+    <script src="public/js/jquery-ui.custom.min.js" type="text/javascript"></script>
+    <script src="public/libs/bootstrap3/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Plugins-->
+    <script src="public/js/gsdk-checkbox.js"></script>
+    <script src="public/js/gsdk-morphing.js"></script>
+    <script src="public/js/gsdk-radio.js"></script>
+    <script src="public/js/gsdk-bootstrapswitch.js"></script>
+    <script src="public/js/bootstrap-select.js"></script>
+    <script src="public/js/bootstrap-datepicker.js"></script>
+    <script src="public/js/jquery.tagsinput.js"></script>
+    <!-- Core javascript-->
+    <script src="public/js/get-shit-done.js"></script>
+    <script src="public/js/gAnalytics.js"></script>
+    <script src="public/js/portfolio.js"></script>
   </body>
 </html>

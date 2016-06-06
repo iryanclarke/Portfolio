@@ -16,8 +16,8 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a onclick="scrollTo('.about');">Who am I?</a></li>
-        <li><a onclick="scrollTo('.play');">Some of my work</a></li>
-        <li><a onclick="scrollTo('.action');">See it in Action</a></li>
+        <li><a onclick="scrollTo('.portfolio');">Some of my work</a></li>
+        <li><a onclick="scrollTo('.bytes');">Bits and Bytes</a></li>
         <li><a onclick="scrollTo('.team');">The Team</a></li>
       </ul>
     </div>

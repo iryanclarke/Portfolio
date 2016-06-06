@@ -19,4 +19,3 @@
 <!-- Fonts and icons-->
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Open+Sans:400,300" rel="stylesheet" type="text/css">
-<link href="/public/stylesheets/css/pe-icon-7-stroke.css" rel="stylesheet">
