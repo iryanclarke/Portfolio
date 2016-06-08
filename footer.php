@@ -3,18 +3,13 @@
         <nav class="pull-left">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="/">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="http://www.anopenmacbook.io">
                         Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Portfolio
                     </a>
                 </li>
             </ul>

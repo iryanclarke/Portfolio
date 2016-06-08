@@ -207,9 +207,9 @@
                    <div id="card-product-carousel" data-ride="carousel" class="carousel slide">
                      <!-- Wrapper for slides-->
                      <div class="carousel-inner">
-                       <div class="item active"><img src="public/img/login-bg.png" alt=""/></div>
-                       <div class="item"><img src="public/img/login-bg.png" alt=""/></div>
-                       <div class="item"><img src="public/img/login-bg.png" alt=""/></div>
+                       <div class="item active"><img src="public/img/serversidelogos.png" alt=""/></div>
+                       <div class="item"><img src="public/img/frontendlogos.png" alt=""/></div>
+                       <div class="item"><img src="public/img/variouslogos.png" alt=""/></div>
                      </div>
                      <!-- Controls--><a href="#card-product-carousel" data-slide="prev" class="left carousel-control"><span class="fa fa-angle-left"></span></a><a href="#card-product-carousel" data-slide="next" class="right carousel-control"><span class="fa fa-angle-right"></span></a>
                    </div>
@@ -236,7 +236,7 @@
                   <li class="">
                     <a href="#legal-vertical-logo" role="tab" data-toggle="tab" aria-expanded="false">
                         <i class="fa fa-wrench"></i><br>
-                        My Stack
+                        Various
                     </a>
                   </li>
                 </ul>
@@ -257,6 +257,7 @@
                       <p>3 years of professional experience in back-end development, with technologies such as:</p>
                       <ul>
                         <li>PHP</li>
+                        <li>MySQL</li>
                         <li>Node.js (Express.js)</li>
                         <li>AJAX/Websockets</li>
                         <li>Linux Server (Ubuntu) management</li>
@@ -264,8 +265,17 @@
                       </ul>
                      </div>
                      <div class="tab-pane" id="legal-vertical-logo">
-                         <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly meets the new Retina HD display. </p>
-                         <p> Just a smooth, seamless bond of metal and glass that feels like one continuous surface. </p>
+                       <p>Various experience with:
+                         <ul>
+                           <li>Photoshop & Illustrator</li>
+                           <li>Git & GitHub workflows</li>
+                           <li>Premier Pro</li>
+                           <li>Scrum/Waterfall methodologies</li>
+                           <li>Three.js/WebGL</li>
+                           <li>Websockets</li>
+                           <li>Sketch 3</li>
+                         </ul>
+                      </p>
                       </div>
                 </div>
             </div> <!-- end col-md-8 -->
@@ -278,9 +288,6 @@
             <div class="col-md-12">
               <div class="social-area text-center">
                   <h5>Find me on</h5>
-                  <a href="#" class="btn btn-social btn-round btn-facebook">
-                      <i class="fa fa-facebook"></i>
-                  </a>
                   <a href="https://twitter.com/tridotdesigns"  class="btn btn-social btn-round btn-twitter">
                       <i class="fa fa-twitter"></i>
                   </a>
@@ -289,6 +296,9 @@
                   </a>
                   <a href="https://www.linkedin.com/in/ian-ryan-clarke-60a65475" class="btn btn-social btn-round btn-linkedin">
                       <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#" class="btn btn-social btn-round">
+                      <i class="fa fa-stack-overflow"></i>
                   </a>
               </div>
             </div>
@@ -355,7 +365,7 @@
     <script src="public/js/bootstrap-datepicker.js"></script>
     <script src="public/js/jquery.tagsinput.js"></script>
     <!-- Core javascript-->
-    <script src="public/js/get-shit-done.js"></script>
+    <script src="public/js/super.js"></script>
     <script src="public/js/gAnalytics.js"></script>
     <script src="public/js/portfolio.js"></script>
   </body>

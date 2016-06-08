@@ -17,8 +17,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a onclick="scrollTo('.about');">Who am I?</a></li>
         <li><a onclick="scrollTo('.portfolio');">Some of my work</a></li>
-        <li><a onclick="scrollTo('.bytes');">Bits and Bytes</a></li>
-        <li><a onclick="scrollTo('.team');">The Team</a></li>
+        <li><a onclick="scrollTo('.bytes');">Knowledge & Experience</a></li>
       </ul>
     </div>
   </div>
